@@ -1,0 +1,8 @@
+---
+title: "Projets"
+subtitle: ""
+listing:
+  contents: projects
+  type: grid
+  grid-columns: 3
+---

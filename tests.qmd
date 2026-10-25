@@ -1,0 +1,35 @@
+---
+title: "Zone de tests"
+---
+*Ici est contenu tous les tests à venir pour présenter de supers travaux*
+
+[documentation HTML](https://quarto.org/docs/output-formats/html-basics.html)
+
+::: {.panel-tabset}
+
+## 1er - onglet de visualisation
+Bienvenue dans le premier onglet : quelques chiffres clés?
+![Non, je rigole voici un chat mignon](https://c0.lestechnophiles.com/www.madmoizelle.com/wp-content/uploads/2017/01/chat-mignon-internet.jpg?resize=1600,900&key=b632a8df&watermark){width="200px"}
+
+## 2nd - onglet de visualisation
+Bienvenue dans le second onglet : vous-aviez vu un chat?
+:::
+Pourquoi pas des colonnes textuelles?
+
+:::{layout-ncol="3"}
+Ma premiere colonne de texte blablab
+
+Ma seconde colonne de texte blablablabl 
+
+Ma troisième colonne de texte blablablablabalbal
+
+:::
+
+## Tests à prévoir 
+
+Il est possible de prévoir des parametres avec un bloc :
+'''
+#| tags [parameters]
+nom="departements_fr"
+filtre="06"
+'''

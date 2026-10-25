@@ -1,0 +1,12 @@
+/* css styles */
+.about-contents p {
+    text-align: justify;
+}
+.about-contents p {
+  text-align: justify;
+}
+
+.quarto-about-trestles {
+  max-width: 1200px;
+  margin: 2em 0 0 -7em;
+}

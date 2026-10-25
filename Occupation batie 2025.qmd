@@ -1,0 +1,14 @@
+---
+title: "Occupation bâtie 2025 - Prochaine exploration à venir"
+---
+# L'exploration du Cadastre, l'exemple Métropolitain de NCA
+
+Le cadastre Métropolitain est en ligne et se trouve sous différentes sources. L'une d'entre elle nous donne accès
+au [Coefficient d'occupation des sols](https://fr.wikipedia.org/wiki/Coefficient_d%27emprise_au_sol#:~:text=Le%20coefficient%20d%27emprise%20au,compris%20entre%200%20et%201.). 
+On peut donc connaître si une parcelle a plus ou moins d'emprise bâtie. Et la visualisation de cette donnée est toujours, super joli ! 
+
+## Cartographie de l'emprise bâtie MNCA - choisissez votre rampe de couleurs !
+
+```{python}
+print("Au plaisir de vous partager une carte ici bientôt !")
+```

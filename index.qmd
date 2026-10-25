@@ -1,0 +1,47 @@
+---
+title: "Quentin Robiquet"
+page-layout: full
+toc: false
+about:
+  template: trestles
+  image: qr2.png
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/quentin-robiquet-1660b9160/
+    - icon: envelope
+      text: Contact
+      href: mailto:quentin.robiquet@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/proquentinrobiquet
+
+  
+---
+
+Géomaticien avec un parcours en urbanisme, gestion de l'eau dans le cadre de projets européen ou de stratégie ville perméable, je traite, analyse et mets en lumières les enseignements de tous types de données. Réglementaire, planification, démographie, environnementale, risques... Une question dans votre structure, ou à porter en politique publique, je peux éclairer vos décisions :
+
+## Quelques projets :
+
+- Quelle géographie d'accueil de la petite enfance à Nice en 2032 ?
+- Où porter une politique de Ville Perméable sur la Métropole de Nice Côte d'Azur ?
+- Quelles conséquences d'une révision/modification du PPRi/PLU sur les zones d'activités ?
+- Quels enjeux liés à la gestion amont-aval de l'Eau en Région SUD ? Quels enjeux littoraux s'imposent à un recul stratégique ?
+- La Géographie des loyers à Nice en 2025 ? [Carte des loyers](loyer06.qmd)
+
+Autodidacte insatiable j'explore avec passion l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- **et ce site en est une preuve**.
+
+## Compétences :
+
+- SIG : QGIS (Atlas, plugins DataPlotly, OpenRouteService)
+- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder),Flourish, UMAP (OpenStreetMap)
+- Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, Quarto Markdown (rédaction)
+- Analyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (*en formation*)
+- Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & mise en compatibilité)
+- Intelligence Artificielle : conception de plugins QGIS, automatisation de veille, webscraping
+
+## Expériences
+
+- **Chargé d'études Observatoire et analyses territoriales** Nice, 2025-2027 - Agence d'Urbanisme Azuréenne (sa fermeture programmée vous a amené ici!)
+- **Chargé de mission urbanisme réglementaire** Nice, 2023-2025 - Chambre de commerce et d'industrie de Nice
+- **Instructeur - Droit de préemption** 2021-2022, Septeo-Proptech/Kinaxia - Valbonne

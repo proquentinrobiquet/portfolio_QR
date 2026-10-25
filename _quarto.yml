@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  page-footer: "Site réalisé par Quentin Robiquet - 2026"
+  title: ""
+  navbar: 
+    left:
+      - href: index.qmd
+        text: Quentin Robiquet
+    right:
+      - href: about.qmd
+        text: À propos
+      - href: projets.qmd 
+      - text: "Autres projets"
+        icon: filter-square
+        menu:
+          - href: autres_pages\Autre 1.qmd
+          - href: autres_pages\Autre 2.qmd
+          - href: loyer06.qmd
+            text: Carte des loyers 2025
+            icon: key-fill
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
