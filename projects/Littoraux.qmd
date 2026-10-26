@@ -8,10 +8,11 @@ lightbox: true
 
 ## En Région - Un département sur trois est touché !
 
-Les Alpes-maritimes, et le Var ne représentent pas de phénomène "perceptible" concernant un recul du trait de côte. A ce propos, le CEREMA précise qu'à l'échelle Nationale, les premiers travaux comparés aux plus récents montrent "*une structure globale des résultats*" remarquement "*stable*". Toutefois, **un cinquième des littoraux des Bouches-du-Rhône** présentent un recul significatif (de -3 m/an, jusqu'à -0,5m/an). Ci-dessous est proposé sur la base des travaux du CEREMA un atlas d'évolution du trait de côte simplifié.
+Les Alpes-maritimes, et le Var ne représentent pas de phénomène "perceptible" concernant un recul du trait de côte. A ce propos, le CEREMA précise qu'à l'échelle Nationale entre les deux version d'indicateurs les premiers travaux comparés aux plus récents montrent "*une structure globale des résultats*" remarquement "*stable*". 
+Il demeure qu'**un cinquième des littoraux des Bouches-du-Rhône** entre 1950-2020 présentent un recul significatif (de -3 m/an, jusqu'à -0,5m/an). Ci-dessous est proposé sur la base des travaux du CEREMA un Atlas d'évolution du trait de côte simplifié.
 
 ::: callout-note
-⚠️ A noter : Les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox}, et [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} sont sévèrement touchées par le phénomène.
+⚠️ A noter : Ce sont surtout les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox}, et [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} qui sont sévèrement touchées par le phénomène.
 :::
 
 ## Atlas par commune
