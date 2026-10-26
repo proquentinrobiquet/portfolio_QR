@@ -1,0 +1,33 @@
+---
+title: "Littoraux : la mer monte ! Vraiment ?..."
+description: Les littoraux reculent, d'autres avancent. Comment ces dynamiques influent l'aménagement du littoral en Région SUD ?
+image: etang_dame.webp
+page-layout: full
+lightbox: true
+---
+
+## En Région - Un département sur trois est touché !
+
+Les Alpes-maritimes, et le Var ne représentent pas de phénomène "perceptible" concernant un recul du trait de côte. A ce propos, le CEREMA précise qu'à l'échelle Nationale, les premiers travaux comparés aux plus récents montrent "*une structure globale des résultats*" remarquement "*stable*". Toutefois, **un cinquième des littoraux des Bouches-du-Rhône** présentent un recul significatif (de -3 m/an, jusqu'à -0,5m/an). Ci-dessous est proposé sur la base des travaux du CEREMA un atlas d'évolution du trait de côte simplifié.
+
+::: callout-note
+⚠️ A noter : Les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox}, et [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} sont sévèrement touchées par le phénomène.
+:::
+
+## Atlas par commune
+
+```{python}
+#| echo: false
+#| output: asis
+from pathlib import Path
+
+images = sorted(Path("Atlas_littoV1").glob("*.webp"))
+
+# Grille de vignettes : change 5 pour 4 ou 6 si elles sont trop grosses ou trop petites
+print("::: {layout-ncol=7}\n")
+for img in images:
+    commune = img.stem.replace("_", " ")   # nom tel qu'il est écrit dans le fichier
+    # group="communes" : toutes les images sont reliées, donc on navigue de l'une à l'autre
+    print(f'![{commune}]({img.as_posix()} "{commune}"){{group="communes"}}\n')
+print(":::")
+```

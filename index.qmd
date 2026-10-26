@@ -19,9 +19,9 @@ about:
   
 ---
 
-Géomaticien avec un parcours en urbanisme, gestion de l'eau dans le cadre de projets européen ou de stratégie ville perméable, je traite, analyse et mets en lumières les enseignements de tous types de données. Réglementaire, planification, démographie, environnementale, risques... Une question dans votre structure, ou à porter en politique publique, je peux éclairer vos décisions :
+Géomaticien avec un parcours en urbanisme, gestion de l'eau dans le cadre de projets européen ou de stratégie ville perméable, je traite, analyse et mets en lumières les enseignements de tous types de données géographiques. Urbanisme réglementaire, planification, démographie, environnement, risques... Quelle que soit la question ou la politique publique, je peux éclairer vos décisions.
 
-## Quelques projets :
+## Quelques projets
 
 - Quelle géographie d'accueil de la petite enfance à Nice en 2032 ?
 - Où porter une politique de Ville Perméable sur la Métropole de Nice Côte d'Azur ?
@@ -31,17 +31,17 @@ Géomaticien avec un parcours en urbanisme, gestion de l'eau dans le cadre de pr
 
 Autodidacte insatiable j'explore avec passion l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- **et ce site en est une preuve**.
 
-## Compétences :
+## Compétences
 
-- SIG : QGIS (Atlas, plugins DataPlotly, OpenRouteService)
-- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder),Flourish, UMAP (OpenStreetMap)
+- SIG : QGIS (Atlas, DataPlotly, OpenRouteService)
+- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), Flourish, UMAP (OpenStreetMap)
 - Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, Quarto Markdown (rédaction)
 - Analyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (*en formation*)
 - Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & mise en compatibilité)
-- Intelligence Artificielle : conception de plugins QGIS, automatisation de veille, webscraping
+- Intelligence Artificielle : conception de plugins QGIS, automatisation de veille, webscraping et infographies dynamiques
 
 ## Expériences
 
-- **Chargé d'études Observatoire et analyses territoriales** Nice, 2025-2027 - Agence d'Urbanisme Azuréenne (sa fermeture programmée vous a amené ici!)
+- **Chargé d'études Observatoire et analyses territoriales** Nice, 2025-2027 - Agence d'Urbanisme Azuréenne (fermeture programmée)
 - **Chargé de mission urbanisme réglementaire** Nice, 2023-2025 - Chambre de commerce et d'industrie de Nice
 - **Instructeur - Droit de préemption** 2021-2022, Septeo-Proptech/Kinaxia - Valbonne
