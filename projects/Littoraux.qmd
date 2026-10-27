@@ -1,21 +1,37 @@
 ---
-title: "Littoraux : la mer monte ! Vraiment ?..."
+title: "La Mer monte ? Vraiment ?..."
 description: Les littoraux reculent, d'autres avancent. Comment ces dynamiques influent l'aménagement du littoral en Région SUD ?
 image: etang_dame.webp
 page-layout: full
 lightbox: true
 ---
 
-## En Région - Un département sur trois est touché !
+## L'Indicateur national de l'érosion côtière 2026
 
-Les Alpes-maritimes, et le Var ne représentent pas de phénomène "perceptible" concernant un recul du trait de côte. A ce propos, le CEREMA précise qu'à l'échelle Nationale entre les deux version d'indicateurs les premiers travaux comparés aux plus récents montrent "*une structure globale des résultats*" remarquement "*stable*". 
-Il demeure qu'**un cinquième des littoraux des Bouches-du-Rhône** entre 1950-2020 présentent un recul significatif (de -3 m/an, jusqu'à -0,5m/an). Ci-dessous est proposé sur la base des travaux du CEREMA un Atlas d'évolution du trait de côte simplifié.
+Tout récemment, le CEREMA a mis à jour la nouvelle version de l'indicateur national de l'érosion côtière. Ces résultats sont accessibles au grand public [grâce à cette application cartographique](https://cartagene.cerema.fr/portal/apps/experiencebuilder/experience/?id=9dbd12049939465481fe76a126b5298f). 
+La première version de cet indicateur réalisé entre 2015-2018 a constitué un référentiel dont les chiffres clés étaient les suivants : 
+-  **près de 20%** des profils analysés sont en recul soit 920 km de linéaire, 
+-  **12%** en avancée,
+- **68%** restant sont stables. 
 
-::: callout-note
-⚠️ A noter : Ce sont surtout les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox}, et [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} qui sont sévèrement touchées par le phénomène.
+L'actualisation récente concerne davantage de traits de côte, et viens confirmer qu'environ 20% des côtes naturelles sont en recul. Pourtant, le CEREMA précise que selon les secteurs, le littoral alterne des phases d'avancée et de recul. C'est pourquoi, choisir une unique période de référence accentue les phénomènes extrêmes (tempêtes, submersions, etc...) et choisir une période allongée peut lisser ces dynamiques. 
+
+Qu'en est-il pour la Région SUD ?...
+
+::: {#fig-evolution-tc-national}
+![Évolution du trait de côte - par département (CEREMA 2026)](CEREMA_indicateur_national.png){width=30%}
 :::
 
-## Atlas par commune
+## En Région - Un département sur trois est touché !
+
+Les Alpes-maritimes, et le Var ne présentent pas de phénomène de recul "perceptible". En revanche, près d'**un cinquième des littoraux des Bouches-du-Rhône** entre 1950-2020 auraient un recul significatif (de -3 m/an, jusqu'à -0,5m/an). Ci-dessous est proposé sur la base des travaux du CEREMA un Atlas pour l'évolution du trait de côte simplifié. Celui permet de visualiser les dynamiques littorales par commune. Au de lieu de représenter les polygones de recul ou d'avancée, des linéaires contenant la dynamique du trait de côte sont proposés. Cette méthode a des limites significatives, et n'a pas pour objectif de constituer un un outil d'aide à la décision. 
+
+::: callout-note
+⚠️ A noter : dans les données de la @fig-evolution-tc-national, ce sont surtout les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox}, et [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} qui sont sévèrement touchées par le phénomène de recul du trait de côte.
+:::
+
+::: {.panel-tabset}
+## Atlas des communes littorales (Région SUD)
 
 ```{python}
 #| echo: false
@@ -32,3 +48,10 @@ for img in images:
     print(f'![{commune}]({img.as_posix()} "{commune}"){{group="communes"}}\n')
 print(":::")
 ```
+
+## Carte interactive
+
+Texte à venir ici
+
+
+:::

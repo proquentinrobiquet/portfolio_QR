@@ -1,5 +1,6 @@
 project:
   type: website
+  
 
 website:
   page-footer: "Site réalisé par Quentin Robiquet - 2026"
