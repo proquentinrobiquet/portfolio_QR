@@ -2,11 +2,12 @@
 .about-contents p {
     text-align: justify;
 }
-.about-contents p {
-  text-align: justify;
-}
-
 .quarto-about-trestles {
   max-width: 1200px;
   margin: 2em 0 0 -7em;
+}
+/* Justifie les paragraphes du contenu principal */
+#quarto-document-content p {
+  text-align: justify;
+  hyphens: auto;   /* coupe les mots en fin de ligne pour éviter les grands blancs */
 }
