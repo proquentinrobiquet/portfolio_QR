@@ -4,10 +4,9 @@ title: "À propos"
 
 # Cartes présentées
 
-L'ensemble des cartographies présentées dans ce portfolio ont été reproduites grâce à des données publiques disponibles. Les projets sont inspirés de travaux confiés au sein de l'Agence d'urbanisme Azuréenne. En espérant que ce site vous permette de mieux comprendre mon profil.
+L'ensemble des cartographies présentées dans ce portfolio ont été reproduites grâce à des données publiques disponibles. Les projets sont inspirés de travaux confiés au sein de l'Agence d'urbanisme Azuréenne ou de la Chambre de commerce et d'industrie de Nice. Ce site a la vocation de vous présenter mon profil.
 
 # Comment est réalisé ce site ?
 
-Grâce à QUARTO, un projet open-source dédié à la publication d'articles scienfiques, de livres, la création de site avec intégration des languages de programmations : python, R, Julia. 
-Pour explorer d'autres projets Quarto : [c'est par ici !](https://quarto.org/docs/websites)
+Quarto est un projet open-source dédié à la publication d'articles scientifiques, de livres, la création de site avec intégration des languages de programmations : python, R, Julia. Pour explorer d'autres projets Quarto : [c'est par ici !](https://quarto.org/docs/websites)
 

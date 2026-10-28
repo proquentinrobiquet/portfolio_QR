@@ -11,7 +11,7 @@ about:
       href: https://www.linkedin.com/in/quentin-robiquet-1660b9160/
     - icon: envelope
       text: Contact
-      href: mailto:quentin.robiquet@gmail.com
+      href: mailto:quentinrobiquet@gmail.com
     - icon: github
       text: Github
       href: https://github.com/proquentinrobiquet

@@ -1,17 +1,24 @@
 project:
   type: website
-  
+  render: #commenter si besoin pour désactiver
+    - "*.qmd" #commenter si besoin pour désactiver
+    - "!loyer06.qmd" #commenter si besoin pour désactiver
 
 website:
-  page-footer: "Site réalisé par Quentin Robiquet - 2026"
+  page-footer: 
+    left: "Site réalisé par Quentin Robiquet - 2026 - réalisé avec [Quarto :heart:](https://quarto.org)"
+    center: 
+    - href: about.qmd
+      text: À propos
+      
   title: ""
   navbar: 
     left:
       - href: index.qmd
         text: Quentin Robiquet
+        icon: house-fill
     right:
-      - href: about.qmd
-        text: À propos
+      
       - href: projets.qmd 
       - text: "Autres projets"
         icon: filter-square

@@ -1,0 +1,29 @@
+---
+title: "La ville perméable "
+description: Où est-il possible de porter une stratégie de Ville perméable ?...
+image: ville_permeable.webp
+page-layout: full
+lightbox: true
+date: 2026-10-30
+from: markdown+emoji
+---
+
+# Définition, concept
+
+La fabrique de la ville et l'imperméabilisation des sols font oscillerles milieux urbains entre le "*trop peu*" et le "*bien trop*" d'eau. En effet, l'intensité des évènements climatiques vécu en ville pousse les politiques publiques à s'adapter, et [à s'adapter rapidement]{.underline}. Apparu fin des années 2000 au travers :
+
+- du terme ["ville-éponge" en Chine](https://www.turenscape.com/topic/en/spongecity/index.html#area3),
+
+- d'[alternatives aux ouvrages classiques d'eaux pluviales](https://www.epa.gov/sites/default/files/2015-09/documents/bbfs1benefits.pdf) aux Etats-Unis,
+
+- de [quartiers complétements aménagés](https://www.citego.org/bdf_fiche-document-4191_fr.html) pour gérer au mieux les eau pluviales en Suède...
+
+la "Ville perméable" porte bien des noms. En France Métropolitaine, nombreuses sont les villes qui ont adopté ces principes d'aménagements. [Lyon](https://www.grandlyon.com/fileadmin/user_upload/media/pdf/eau/20170926_guide-projet-ville-permeable.pdf), [Paris](https://www.aurba.org/wp-content/uploads/2025/08/aurba_2023_desimpermeabilisation_F_Cour_Oasis.pdf#age=3), [Bordeaux](https://www.aurba.org/wp-content/uploads/2025/08/aurba_2023_desimpermeabilisation_F_Jardin_de_lArs.pdf), [Nantes](https://medias-metropole.nantes.fr/s3fs-public/media/documents/NM_Plaquette%20usagers%20EP_pap%20WEB%2009%2019.pdf) présentent des projets d'aménagements qui d'une part améliorent le quotidien des habitants, et d'autre part, réduisent les volumes d'eaux à gérer dans les systèmes d'assainissement. Dans l'idée c'est donc une ville qui "*laisse passer l'eau*", au lieu de l'acheminer aux égouts.
+
+::: {.callout-note icon="false"}
+## Définition
+
+Approche d’aménagement urbain qui gère l’eau de pluie au plus près de l’endroit où elle tombe (infiltration, stockage, réutilisation), en réduisant les surfaces imperméables et en s'appuyant sur des solutions alternatives au tout-tuyau.
+:::
+
+#
