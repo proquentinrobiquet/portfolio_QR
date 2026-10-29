@@ -19,7 +19,7 @@ about:
   
 ---
 
-Géomaticien avec un parcours en urbanisme, gestion de l'eau dans le cadre de projets européen ou de stratégie ville perméable, je traite, analyse et mets en lumières les enseignements de tous types de données géographiques. Urbanisme réglementaire, planification, démographie, environnement, risques... Quelle que soit la question ou la politique publique, je peux éclairer vos décisions.
+Géomaticien avec un parcours en urbanisme, et ayant eu l'occasion de travailler sur une diversité de sujets territoriaux (gestion de l'eau, stratégie de ville perméable, projets européens…) je traite, analyse et mets en lumière les enseignements de différents types de données géographiques : urbanisme réglementaire, planification, démographie, environnement, risques …  Quelle que soit la question ou la politique publique, je peux éclairer vos décisions.
 
 ## Quelques projets
 
@@ -35,9 +35,9 @@ Autodidacte insatiable j'explore avec passion l'éventail des outils open-source
 
 - SIG : QGIS (Atlas, DataPlotly, OpenRouteService)
 - Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), Flourish, UMAP (OpenStreetMap)
-- Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, Quarto Markdown (rédaction)
+- Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)
 - Analyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (*en formation*)
-- Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & mise en compatibilité)
+- Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & Mise en compatibilité)
 - Intelligence Artificielle : conception de plugins QGIS, automatisation de veille, webscraping et infographies dynamiques
 
 ## Expériences
