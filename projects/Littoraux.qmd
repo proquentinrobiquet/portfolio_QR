@@ -11,7 +11,7 @@ date: 2026-10-28
 ::: callout-tip
 ## En bref
 
-Le CEREMA vient de publier la version 2026 de l'indicateur national de l'érosion côtière. En Région SUD, le recul du trait de côte se concentre sur **deux communes du Delta du Rhône**. Partout ailleurs, l'évolution est le plus souvent *non perceptible*. Cette page propose un **atlas par commune** pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l'aménagement.
+Le CEREMA vient de publier la version 2026 de l'indicateur national de l'érosion côtière. En Région SUD, le recul du trait de côte est concentré sur **deux communes du Delta du Rhône**. Partout ailleurs, l'évolution est le plus souvent *non perceptible*. Cette page propose un **atlas par commune** pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l'aménagement.
 :::
 
 ## L'Indicateur national de l'Érosion côtière 2026
@@ -56,7 +56,13 @@ Ci-dessous est proposé un Atlas de cette évolution du trait de côte, simplifi
 
 Taux moyen d'évolution du trait de côte pour chaque commune littorale (période 2010-2020). Les communes sont classées du plus fort recul au plus fort gain.
 
-<iframe src='https://flo.uri.sh/visualisation/30729580/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:400px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+<iframe src='https://flo.uri.sh/visualisation/30729580/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+
+- **Deux communes se détachent nettement** : Port-Saint-Louis-du-Rhône et Saintes-Maries-de-la-Mer sont les deux communes du Delta citées plus haut.
+- **La grande majorité des communes ont peu de recul (-0.1 à +0.1)** : leur évolution moyenne est peu ou pas perceptible.
+- **Certaines communes affichent une avancée** (Fos-sur-Mer, par exemple, autour de +0,17 m/an). 
+
+Attention : l'indicateur est sur la période 2010-2020, et ne distingue pas une avancée naturelle d'une avancée due aux aménagements (ex: brises-lames, zones portuaires, etc...).
 
 ## Atlas des communes littorales (Région SUD)
 
@@ -72,22 +78,27 @@ images = sorted(Path("Atlas_littoV1").glob("*.webp"))
 # Grille de vignettes : change 7 pour 5 ou 6 si elles sont trop petites
 print("::: {layout-ncol=7}\n")
 for img in images:
-    commune = img.stem.replace("_", " ")
+    commune = img.stem.replace("_", " ") #permet d'avoir le nom de la commune et mets des espaces à la place des "_"
     # group="communes" : toutes les images sont reliées dans la visionneuse
     print(f'![{commune}]({img.as_posix()} "{commune}"){{group="communes"}}\n')
 print(":::")
 ```
+## Les limites de cette méthode
+
+Cet atlas est une simplification. Quelques précautions :
+
+- **Les lignes sont des repères, pas la côte elle-même** : elles sont construites à partir du centre des polygones d'évolution, donc légèrement décalées du trait de côte réel.
+- **Une moyenne par commune cache des réalités opposées** : sur un même linéaire, un secteur en recul et un secteur en avancée peuvent s'annuler.
+- **Les petits linéaires pèsent peu** : certaines communes sont représentées par très peu de profils (quelques unités), leur moyenne est donc fragile.
+- **Des tronçons non calculés** peuvent être "traversés" par les lignes.
+- **Mes classes de légende (±0,2 m/an) ne sont pas celles du CEREMA (±0,1 m/an)** : à garder en tête en comparant avec Cartagène.
 
 ## Carte interactive
 
 Carte interactive en cours de préparation.
 :::
 
-## Ce que dit le graphique
 
-- **Deux communes se détachent nettement** : Port-Saint-Louis-du-Rhône (environ −0,71 m/an en moyenne) et Saintes-Maries-de-la-Mer (environ −0,32 m/an). Ce sont les deux communes du Delta citées plus haut.
-- **La grande majorité des communes ont peu de recul (-0.1 à +0.1)** : leur évolution moyenne est peu ou pas perceptible.
-- **Certaines communes affichent une avancée** (Fos-sur-Mer, par exemple, autour de +0,17 m/an). Attention : l'indicateur ne distingue pas une avancée naturelle d'une avancée due aux aménagements (ex: brises-lames). Dans un secteur portuaire et industriel, ces données sont à nuancer.
 
 
 ### Et l'aménagement dans tout ça ?
@@ -104,22 +115,11 @@ Les deux communes qui reculent le plus dans l'indicateur 2010-2020, **Port-Saint
 
 Ce décalage ne signifie pas qu'il y a une erreur. L'indicateur mesure **le passé** sur une période donnée, alors que les cartes locales portent sur **des projections** et sur des enjeux (bâti, activités, submersion marine) que la seule vitesse de recul ne résume pas. Reste à comprendre, au cas par cas, ce qui explique les choix de la liste.
 
-## Les limites de cette méthode
+## En conclusion : la mer monte, vraiment ?
 
-Cet atlas est une simplification. Quelques précautions :
-
-- **Les lignes sont des repères, pas la côte elle-même** : elles sont construites à partir du centre des polygones d'évolution, donc légèrement décalées du trait de côte réel.
-- **Une moyenne par commune cache des réalités opposées** : sur un même linéaire, un secteur en recul et un secteur en avancée peuvent s'annuler.
-- **Les petits linéaires pèsent peu** : certaines communes sont représentées par très peu de profils (quelques unités), leur moyenne est donc fragile.
-- **Des tronçons non calculés** peuvent être "traversés" par les lignes.
-- **Mes classes de légende (±0,2 m/an) ne sont pas celles du CEREMA (±0,1 m/an)** : à garder en tête en comparant avec Cartagène.
+À l'échelle de la Région SUD, la réponse est **nuancée** : le recul du trait de côte est réel mais très **concentré**, surtout sur le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d'en prendre conscience vite, mais ne remplace ni les données détaillées, ni l'expertise locale pour décider d'un aménagement.
 
 ## Données, outils et transparence
 
 - **Données** : Indicateur national de l'érosion côtière – version 2026, CEREMA. *Source : Indicateur national de l'érosion côtière – Version 2026 – Cerema, 2026.*
 - **Outils** : QGIS, Excel, Python (génération de l'Atlas), Quarto.
-
-## En conclusion : la mer monte, vraiment ?
-
-À l'échelle de la Région SUD, la réponse est **nuancée** : le recul du trait de côte est réel mais très **concentré**, surtout sur le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d'en prendre conscience vite, mais ne remplace ni les données détaillées, ni l'expertise locale pour décider d'un aménagement.
-

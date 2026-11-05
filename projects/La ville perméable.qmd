@@ -44,10 +44,11 @@ La théorie est donc d'améliorer cet équlibre entre espaces artificiels, et na
 Tout l'enjeu réside dans l'**identification des zones où il est possible d'agir** pour porter une "stratégie de ville perméable". Désimperméabiliser, et perméabiliser en amont de projets de constructions.
 :::
 
-## Contraintes et sélections
+## Contraintes et sélections...
+### Une mission pour un géographe
 
 1.  Exclure :
-    - La pente : à plus de 10% aucune infiltration envisageable, car l'eau ruisselle davantage qu'elle ne s'infiltre.
+    - La pente : à plus de 10% aucune infiltration est envisageable, car l'eau ruisselle davantage qu'elle ne s'infiltre.
     - Les sols : instabilité, mouvements de terrain, ces sols généralement naturels, mais pour certains en milieu urbain ne sont ni à envisager, ni propices à l'infiltration ;
       - Et dans la même optique, on comprends les PPR mouvements de terrain, les porter à connaissances associés,
       - Le risque de retrait et gonflement des argiles, les sols pollués, le risque de remontée de nappe,
