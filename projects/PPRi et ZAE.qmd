@@ -1,51 +1,64 @@
 ---
 title: "Zones d'activités : l'angle mort des risques inondations ?"
+title-block-banner: "#1b6ca8"
+title-block-banner-color: "white"
 image: Risques_ZAE.webp
 lang: fr
+
 ---
 ## Un million d'habitants en zone inondable
 
-**Près d'un million** : c'est le nombre d'habitants vivant en zone inondable en Provence-Alpes-Côte d'Azur (Région Sud), selon l'INSEE [^1]. Le chiffre exact est de **998 100 habitants, soit 19 % de la population** (données 2016). Ce chiffre clé est d'autant plus révélateur que ces zones inondables sont, à près de 80 %, des territoires urbains.
+**Près d'un million** : c'est le nombre d'habitants vivant en zone inondable [^1] en Provence-Alpes-Côte d'Azur (Région Sud), selon l'INSEE [^2]. Le chiffre exact est de **998 100 habitants, soit 19 % de la population** (en 2016). Ce chiffre clé est d'autant plus révélateur que ces zones inondables sont, "*à près de 80 %, des territoires urbains*".
 
-Dans le Var et les Alpes-Maritimes, ces zones inondables touchent respectivement **22 % et 29 %** de la population. L'enjeu est considérable. Pourtant, dans les plans de prévention des risques d'inondation (PPRI) consultés, le croisement entre aléa et enjeu ne tient pas directement compte des zones d'activités économiques.
+Dans le Var et les Alpes-Maritimes, ces zones inondables touchent respectivement **22 % et 29 %** de la population. L'enjeu est considérable. 
+Pourtant, dans les Plans de Prévention des Risques d'inondation (PPRi) consultés ici, le croisement entre aléa et enjeu ne tient pas directement compte des zones d'activités économiques, qui concentrent des flux et des emplois.
 
-[^1]: INSEE Analyses Provence-Alpes-Côte d'Azur n° 65, octobre 2018, [« Un million d'habitants vivent en zone inondable »](https://www.insee.fr/fr/statistiques/3614748). Les zones inondables sont définies à partir de **l'atlas des zones inondables (jusqu'au lit majeur exceptionnel)**, et non à partir des zonages des PPRI.
+[^1]: Une zone inondable est une zone susceptible d'être naturellement envahie par l'eau lors des crues importantes d'une rivière [voir géorisques](https://www.georisques.gouv.fr/glossaire/zone-inondable).
 
-## La mesure du risque
+[^2]: INSEE Analyses Provence-Alpes-Côte d'Azur n° 65, octobre 2018, [« Un million d'habitants vivent en zone inondable »](https://www.insee.fr/fr/statistiques/3614748). Les zones inondables sont définies à partir de **l'atlas des zones inondables (jusqu'au lit majeur exceptionnel)**, et non à partir des zonages des PPRI.
 
-Le risque, de toute nature qu'il soit, est le croisement entre un **aléa** et un **enjeu**. Sans aléa, pas de risque. Sans enjeu, pas de risque non plus.
+## Quelques éléments sur la mesure du risque
 
-Dans un PPRI, la première étape est d'identifier et de caractériser au mieux l'aléa : hauteur d'eau, vitesse d'écoulement, selon différents scénarios. Puis, d'identifier les enjeux qui se trouvent dans l'emprise de cet aléa. Ces enjeux, sont **ponctuels** et **surfaciques**, il peut s'agir d'établissements :
+Le risque, de toute nature qu'il soit, est le croisement en un lieu d'un **aléa** et un **enjeu**. Sans aléa, pas de risque. Sans enjeu, pas de risque non plus.
+
+Dans un PPRi, une des étapes clés est d'identifier et de caractériser au mieux l'aléa : hauteur d'eau, vitesse d'écoulement, selon une base d'évènements historiques, et de scénarios déduits. Puis, d'identifier les enjeux qui se trouvent dans l'emprise des aléas. Ces enjeux, sont **ponctuels** et **surfaciques**, il peut s'agir d'établissements :
 
 - liés à la **gestion de crise**,
 - **sensibles** : crèches, hôpitaux, populations à mobilité réduite,
 - **recevant du public** et concentrant d'importants flux de population,
 - liés au **tourisme** : campings, hôtels, ERP...
 
-À ces établissements des zones à enjeux **surfaciques** décrivent l'occupation du sol en trois zones :
+À ces établissements, s'ajoutent des zones à enjeux **surfaciques** qui décrivent des niveaux d'urbanisation :
 
 - les **centres urbains** (CU) : quartiers historiques, bâti continu, usage mixte (logements, commerces, services) ;
 - les **autres zones urbanisées** (AZU) : les zones urbanisées qui ne sont pas des centres urbains, avec un bâti discontinu, de dense à moyennement dense ;
 - les **zones peu ou pas urbanisées** (ZPPU) : bâti clairsemé ou absent.
 
-[Le croisement de l'aléa et de ces enjeux constitue le socle du plan de prévention des risques]{.underline}.
+[Le croisement aléas et enjeux constitue le socle du plan de prévention des risques]{.underline color="red"}.
 
 
-::: callout-note
-## Une méthode souvent reproduite
 
-Cette répartition en CU / AZU / ZPPU se retrouve dans les PPRI de **Cannes** (janvier 2020), **Antibes** et **Biot** (27 juin 2022), **Grasse** (25 mai 2023) et **Mougins** (25 juillet 2023). Les listes d'enjeux ponctuels varient d'une commune à l'autre. Sources : [*Services de l'Etat dans les Alpes-Maritimes*](https://www.alpes-maritimes.gouv.fr/Actions-de-l-Etat/Environnement-risques-naturels-et-technologiques/Les-risques-naturels-et-technologiques/Les-Plans-de-Prevention-des-Risques-PPR-et-Porter-a-Connaissance-PAC/PPR-et-PAC-approuves)
+::: {.callout-caution collapse="true"}
+
+## Quelques précisions sur la méthodologie d'élaboration des PPRi
+
+Le guide d'élaboration des [PPRi](https://www.ecologie.gouv.fr/sites/default/files/documents/Guide%20m%C3%A9thodologique%20-%20PPRI%20par%20d%C3%A9bordement%20de%20cours%20d%27eau%20-%20version%202024.pdf#page=86) établit par le Ministère de l'Écologie, propose de délimiter des niveaux d'urbanisation respectivement cités dans le code de l'environnement (R 562-11-6). [^3]
+
 :::
+
+[^3]: Rapports de présentation et cartes des enjeux des PPRI de [Cannes](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/33505/260659/file/Rapport%20de%20Présentation.pdf), [Antibes](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/43570/321777/file/Rapport%20de%20Pr%C3%A9sentation.pdf), [Biot](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/43561/321741/file/Rapport%20de%20Pr%C3%A9sentation.pdf), [Grasse](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/47399/371917/file/Rapport%20de%20présentation.pdf) et [Mougins](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/31351/247575/file/Rapport%20de%20Pr%C3%A9sentation-compress%C3%A9.pdf).
 
 ## Et les zones d'activités ?
 
-Dans ces PPRI, **aucune classe ne désigne les zones d'activités économiques en tant que telles**. Le PPRI de Grasse parmis ceux cités, est le seul qui représente des ICPE, des sites Seveso ou usines chimiques. Repérés principalement pour les personnes en **danger** et non pour les **emplois** qu'ils concentrent. La définition des **autres zones urbanisées** est la catégorie n'étant pas **centres urbains** ou **zones peu ou pas urbanisées**.
+Cette répartition en CU / AZU / ZPPU se retrouve dans les PPRi de **Cannes** (janvier 2020), **Antibes** et **Biot** (27 juin 2022), **Grasse** (25 mai 2023) et **Mougins** (25 juillet 2023). Dans ces PPRi, **aucune classe ne désigne les zones d'activités économiques en tant que telles**. Le PPRI de Grasse parmis ceux cités, est le seul qui cite des ICPE, des sites Seveso ou usines chimiques. Repérés principalement pour les personnes soumises à un **danger** et non pour les **emplois** qu'ils concentrent. La définition des **autres zones urbanisées** est la catégorie n'étant pas **centres urbains** ou **zones peu ou pas urbanisées**.
 
 ::: panel-tabset
 
-## Ce que montre le graphique
+## COMMENTAIRES A FAIRE SUR CE GRAPHIQUE
 
-<iframe src='https://flo.uri.sh/visualisation/30756553/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+À partir des PPRi des Alpes-Maritimes et du Var, il a été possible d'évaluer les surfaces de zones d'activités économiques croisant un zonage réglementaire rouge (aléa fort) ou bleu (aléa moyen ou modéré). Quasiment 100% de la plus grande zone d'activité des Alpes-Maritimes, la zone d'activités de Carros-Le Broc, est concernée un PPRi. 
+
+<iframe src='https://flo.uri.sh/visualisation/30756553/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:900px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
 
 ## Cartographie dynamique
 
@@ -58,8 +71,6 @@ A venir ! draft
 - Cette analyse sur les zones d'activités est une **lecture** de documents publics, pas une évaluation du risque réel.
 - L'étude INSEE date de 2018 (données 2016).
 
-## Sources et transparence
-
+## Sources et définitions
 - INSEE Analyses PACA n° 65 (2018).
-- Rapports de présentation et cartes des enjeux des PPRI de [Cannes](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/33505/260659/file/Rapport%20de%20Présentation.pdf), [Antibes](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/43570/321777/file/Rapport%20de%20Pr%C3%A9sentation.pdf), [Biot](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/43561/321741/file/Rapport%20de%20Pr%C3%A9sentation.pdf), [Grasse](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/47399/371917/file/Rapport%20de%20présentation.pdf) et [Mougins](https://www.alpes-maritimes.gouv.fr/contenu/telechargement/31351/247575/file/Rapport%20de%20Pr%C3%A9sentation-compress%C3%A9.pdf).
 - Données WFS : DDTM 83, DDTM 06, Sud Foncier Eco. Traitements : Quentin Robiquet.

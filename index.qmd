@@ -18,18 +18,23 @@ about:
     - href: cv_global.pdf
       icon: chevron-bar-down
       text: CV
-    
+
 listing:
   id: liste-projets
   contents: projects
   type: grid
   image-height: 150px
-  fields: [image, title, date]
+  fields: [image, title]
   grid-columns: 4
 ---
 # Chargé d'études SIG / Géographe 
 
-Géomaticien avec un parcours en urbanisme, ayant travaillé sur une diversité de sujets territoriaux (gestion de l'eau, stratégie de ville perméable, projets européens…) je traite, analyse et mets en lumière les enseignements de différents types de données géographiques : urbanisme réglementaire, planification, démographie, environnement, risques …  Quelle que soit la question ou la politique publique, je peux éclairer vos décisions.
+Géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire comme en gestion de l'eau, stratégie de ville perméable,diagnostic de territoire, projets européens, etc. Tous traitements, analyses, mise en lumière, enseignements à exploiter par de la donnée géographique : urbanisme réglementaire, planification, démographie, environnement, risques, m'est familier.
+
+::: {.callout-tip}
+## Pour faire simple
+Je suis un géographe qui aime traiter, créer, visualiser, et résoudre toutes problématiques liées au territoire grâce aux données.
+:::
 
 ## Quelques projets
 
@@ -41,7 +46,7 @@ Autodidacte insatiable j'explore avec passion l'éventail des outils open-source
 ## Compétences
 
 - SIG : QGIS (Atlas, DataPlotly, OpenRouteService)
-- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), Flourish, UMAP (OpenStreetMap)
+- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), MVIEWER, Flourish, Umap (OpenStreetMap)
 - Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)
 - Analyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (*en formation*)
 - Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & Mise en compatibilité)
