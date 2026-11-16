@@ -29,14 +29,14 @@ listing:
 ---
 # Chargé d'études SIG / Géographe 
 
-Géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire comme en gestion de l'eau, stratégie de ville perméable,diagnostic de territoire, projets européens, etc. Tous traitements, analyses, mise en lumière, enseignements à exploiter par de la donnée géographique : urbanisme réglementaire, planification, démographie, environnement, risques, m'est familier.
+Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire comme en gestion de l'eau, stratégie de ville perméable,diagnostic de territoire, projets européens. Tous traitements, analyses, mise en lumière, enseignements à exploiter par de la donnée géographique : urbanisme réglementaire, planification, démographie, environnement, risques, m'est familier.
 
 ::: {.callout-tip}
 ## Pour faire simple
 Profil géographe qui aime résoudre toute problématiques liées au territoire, par le traitement, l'analyse, et la visualisation de données statistiques ou réglementaires. 
 :::
 
-## Quelques projets
+## Visualiser quelques exemples de projets
 
 ::: {#liste-projets}
 Autodidacte insatiable j'explore avec passion l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
