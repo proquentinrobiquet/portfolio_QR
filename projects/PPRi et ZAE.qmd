@@ -74,12 +74,74 @@ Seul le PPRi de Grasse cite des ICPE, des sites Seveso ou des usines chimiques, 
 - 2 zones sur 5 du Var et des Alpes-Maritimes, ont plus de la moitié de leur foncier concerné par **un risque inondation**.
 - Enfin, on estime **100 000 emplois** concernés dans ces zones d'activités, par le risque d'inondation.
 
-## Zones d'activités et PPRi en cartes
+## En carte dynamique
 
 ```{python}
+#| echo: false
+import pandas as pd
+import geopandas as gpd
+from pathlib import Path
+import matplotlib.pyplot as plt
+import folium
+
+dossier= Path(".")#le "." indique que le dossier actuel est la racine (C:\___\Website))
+fichier_intersections_ZAE= dossier/"Intersection_EAE_PPRis_06_83.gpkg"
+#couche travaillée sous QGIS
+intersection=gpd.read_file(fichier_intersections_ZAE,layer="Intersections_EAE_PPRi_Var_AM")
+
+ZAE_PPri= intersection[["geometry","nom_ppal","nom_com","aire_zae_ha_QR","voc_dom_cal","nb_etab","nb_emplois","aire_ha_intersectee_ppris_QR","ZONE","CODEZONE"]] #selection des colonnes, penser à "geometry"
+fichier_EAE=dossier/"EAE2024.gpkg"
+couche_eae=gpd.read_file(fichier_EAE, layer="regionsud_eae_sfe_2024")
+Eae2024=couche_eae[["geometry","nom_ppal","nom_com","area_zae_ha_QR","voc_dom_cal","nb_etab","nb_emplois"]]
+#carte interactive/dynamique
+ZAE_PPri_folium= ZAE_PPri.to_crs(epsg=4326)
+#on sélectionne uniquement les couches ayant un risque (bleu ou rouge)
+ZAE_PPri_folium=ZAE_PPri_folium[
+    (ZAE_PPri_folium["ZONE"].isin(["B","R"])) | 
+                    (ZAE_PPri_folium["CODEZONE"].isin(["B1", "B2", "B4","R1","R2","R3","Alea exceptionnel"]))
+                    ]
 
 
+Eae2024_folium=Eae2024.to_crs(epsg=4326)
+#CARTO DYNAMIQUE ---------
+#on prépare la carte vierge
+carte=folium.Map(location=[43.72866,7.18710], zoom_start=12
+,tiles="Esri WorldStreetMap")
 
+#couche des zones d'activités de base
+c1=folium.GeoJson(Eae2024,name="Zone d'activité",
+style={"fillColor": "lightblack",
+     "color":"lightgrey","weight":0.8,"fillOpacity":0.2},
+      tooltip=folium.GeoJsonTooltip(fields=["nom_ppal","nb_etab","nb_emplois","area_zae_ha_QR","voc_dom_cal"])
+     ).add_to(carte)
+
+#couche intersection PPRi et ZAE
+#il faut catégoriser en rouge ou bleu les zonages de risque
+def style_zonage(feature):
+    zone = feature["properties"]["ZONE"]
+    codezone = feature["properties"]["CODEZONE"]
+    
+    if zone == "B" or codezone in ("B1", "B2", "B4"):
+        couleur = "blue"
+    elif codezone in("Alea exceptionnel","R1","R2","R3") or zone=="R":
+        couleur = "red"   # ou ce que tu veux pour les autres
+    else:
+        couleur = "transparent"
+    return {
+        "fillColor": couleur,
+        "color": "darkgrey",
+        "weight": 1,
+        "fillOpacity": 0.5
+    }
+
+c2=folium.GeoJson(
+    ZAE_PPri_folium,
+    name="Zones",
+    style_function=style_zonage, tooltip=folium.GeoJsonTooltip(fields=["nom_ppal","aire_ha_intersectee_ppris_QR","voc_dom_cal","nb_etab","nb_emplois"])
+).add_to(carte)
+
+folium.LayerControl().add_to(carte) #on ajoute le module d'affichage des couches
+carte
 ```
 
 
@@ -90,9 +152,8 @@ Seul le PPRi de Grasse cite des ICPE, des sites Seveso ou des usines chimiques, 
 ## Limites
 
 - Cette courte étude fait un focus **Var et Alpes-Maritimes**,
-- Les cartographies d'enjeux sont des « photographies », comme le précise le rapport de présentation de Grasse,
-- Il s'agit d'une **lecture** de documents publics, pas d'une évaluation du risque réel.
-
+- Les zonages des zones d'activités ne sont pas toujours à jour des évolutions réglementaires,
+- Cette **lecture** de documents publics n'est pas évaluation du risque réel.
 
 :::
 

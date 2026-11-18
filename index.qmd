@@ -21,7 +21,7 @@ about:
 
 listing:
   id: liste-projets
-  contents: projects
+  contents:   ./projects
   type: grid
   image-height: 150px
   fields: [image, title]
@@ -39,6 +39,7 @@ Profil géographe qui aime résoudre toute problématiques liées au territoire,
 ## Visualiser quelques exemples de projets
 
 ::: {#liste-projets}
+
 Autodidacte insatiable j'explore avec passion l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
 :::
 
