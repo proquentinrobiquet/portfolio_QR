@@ -6,6 +6,7 @@ project:
    #commenter si besoin pour désactiver  - "!loyer06.qmd" #commenter si besoin pour désactiver
 
 website:
+  draft-mode: visible
   page-footer: 
     left: "Site réalisé par Quentin Robiquet - 2026 - réalisé avec [Quarto](https://quarto.org) 🩵​"
     center: 

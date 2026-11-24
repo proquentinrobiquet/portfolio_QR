@@ -11,7 +11,7 @@ date: 2026-10-28
 ::: callout-tip
 ## En bref
 
-Le CEREMA vient de publier la version 2026 de l'indicateur national de l'érosion côtière. En Région SUD, le recul du trait de côte est concentré sur **deux communes du Delta du Rhône**. Partout ailleurs, l'évolution est le plus souvent *non perceptible*. Cette page propose un **atlas par commune** pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l'aménagement.
+Le CEREMA a publié cette année 2026 une seconde version de l'ndicateur national de l'érosion côtière. En Région SUD, le recul du trait de côte se localiserait sur **deux communes du Delta du Rhône**. Partout ailleurs, l'évolution est majoritairement *non perceptible*. Cette page propose un **atlas par commune** pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l'aménagement.
 :::
 
 ## L'Indicateur national de l'Érosion côtière 2026
@@ -34,7 +34,7 @@ L'actualisation récente concerne davantage de profils de traits de côte, et vi
 ## Comment lire ces chiffres ?
 
 - L'indicateur repose sur des **profils**, c'est-à-dire des points de mesure placés **tous les 50 m** le long de la côte.
-- Chaque profil reçoit un **taux d'évolution en mètres par an** (m/an). Négatif : le trait de côte recule. Positif : il avance.
+- À chaque profil est associé un **taux d'évolution en mètres par an** (m/an). Négatif : le trait de côte recule. Positif : il avance.
 - Entre **−0,1 et +0,1 m/an**, l'évolution est dite **non perceptible**. Ce n'est pas "stable" au sens strict : le changement est trop faible pour être distingué de l'incertitude de mesure.
 - L'indicateur **ne distingue pas** une avancée naturelle d'une avancée liée à un aménagement (port, remblai, ouvrage).
 :::
@@ -42,8 +42,6 @@ L'actualisation récente concerne davantage de profils de traits de côte, et vi
 ## En Région - Un département sur trois touché ?
 
 Les Alpes-Maritimes et le Var ne présentent pas de phénomène de recul jugé "perceptible". En revanche, près d'**un cinquième des littoraux des Bouches-du-Rhône** entre 1950 et 2020 auraient un recul significatif (de -3 m/an jusqu'à -0,5 m/an). Ce recul tient quasi exclusivement à deux communes du Delta du Rhône.
-
-<!-- À VÉRIFIER : "1950-2020" et "-3 m/an jusqu'à -0,5 m/an" dans le rapport CEREMA. Le graphique ci-dessous est sur 2010-2020 : si ce sont deux périodes différentes, il faut le dire clairement. -->
 
 ::: callout-note
 ⚠️ À noter : dans les données de la @fig-evolution-tc-national, ce sont surtout les communes de [Port-Saint-Louis-du-Rhône](Atlas_littoV1/Port-Saint-Louis-du-Rh%C3%B4ne.webp){.lightbox} et de [Saintes-Maries-de-la-Mer](Atlas_littoV1/Saintes-Maries-de-la-Mer.webp){.lightbox} qui sont sévèrement touchées par le phénomène de recul du trait de côte.
@@ -87,7 +85,7 @@ print(":::")
 
 Cet atlas est une simplification. Quelques précautions :
 
-- **Les lignes sont des repères, pas la côte elle-même** : elles sont construites à partir du centre des polygones d'évolution, donc légèrement décalées du trait de côte réel.
+- **Les lignes sont des repères, pas la côte elle-même** : elles sont construites à partir du centre des polygones d'évolution, donc décalées du trait de côte réel.
 - **Une moyenne par commune cache des réalités opposées** : sur un même linéaire, un secteur en recul et un secteur en avancée peuvent s'annuler.
 - **Les petits linéaires pèsent peu** : certaines communes sont représentées par très peu de profils (quelques unités), leur moyenne est donc fragile.
 - **Des tronçons non calculés** peuvent être "traversés" par les lignes.
