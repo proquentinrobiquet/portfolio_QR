@@ -5,7 +5,6 @@ image: etang_dame.webp
 page-layout: full
 lightbox: true
 lang: fr
-date: 2026-10-28
 ---
 
 ::: callout-tip

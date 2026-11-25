@@ -29,32 +29,32 @@ listing:
 ---
 # Chargé d'études SIG / Géographe 
 
-Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire comme en gestion de l'eau, stratégie de ville perméable,diagnostic de territoire, projets européens. Tous traitements, analyses, mise en lumière, enseignements à exploiter par de la donnée géographique : urbanisme réglementaire, planification, démographie, environnement, risques, m'est familier.
+Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire. Passant par l'élaboration d'une stratégie "ville perméable", à un diagnostic petite enfance pour la ville de Nice, à la construction d'atlas pour un projet Européen... Je suis familier avec tous traitements, analyses, mise en lumière des données géographiques au service de l'intérêt général. J'ai principalement abordé des travaux concernant urbanisme réglementaire (à la CCI de Nice), démographie (INSEE RP), les risques (PPRi-mvt) et la désimperméabilisation des sols (OCSGE/RGE Alti).
 
 ::: {.callout-tip}
-## Pour faire simple
-Profil géographe qui aime résoudre toute problématiques liées au territoire, par le traitement, l'analyse, et la visualisation de données statistiques ou réglementaires. 
+## En une phrase
+Profil géographe passioné par la recherche de solutions liées à toute problématiques liées au territoire, par le traitement, l'analyse, et la visualisation de données statistiques ou même réglementaires. 
 :::
 
 ## Visualiser quelques exemples de projets
 
 ::: {#liste-projets}
 
-Autodidacte insatiable j'explore avec passion l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
+Autodidacte insatiable j'explore et m'autoforme avec passion à l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
 :::
 
 
 ## Compétences
 
 - SIG : QGIS (Atlas, DataPlotly, OpenRouteService)
-- Cartographies en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), MVIEWER, Flourish, Umap (OpenStreetMap)
-- Communication : Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)
+- Applications SIG en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), MVIEWER, Flourish, Umap (OpenStreetMap)
+- Communication CAO/DAO: Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)
 - Analyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (*en formation*)
 - Urbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d'utilité publique & Mise en compatibilité)
-- Intelligence Artificielle : conception de plugins QGIS, automatisation de veille, webscraping et infographies dynamiques
+- Intelligence Artificielle : conception de plugins QGIS par IA, automatisations de veille simple, webscraping de données.
 
 ## Expériences
 
-- **Chargé d'études Observatoire et analyses territoriales** Nice, 2025-2027 - Agence d'Urbanisme Azuréenne (fermeture programmée)
+- **Chargé d'études Observatoires et analyses territoriales** Nice, Sept 2025. à aujourd'hui - Agence d'Urbanisme Azuréenne (fermeture programmée)
 - **Chargé de mission urbanisme réglementaire** Nice, 2023-2025 - Chambre de commerce et d'industrie de Nice
-- **Instructeur - Droit de préemption** 2021-2022, Septeo-Proptech/Kinaxia - Valbonne
+- **Chargé de renseignements d'urbanisme** 2021-2022, Septeo-Proptech/Kinaxia - Valbonne
