@@ -33,7 +33,7 @@ Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, 
 
 ::: {.callout-tip}
 ## En une phrase
-Profil géographe passioné par la recherche de solutions liées à toute problématiques liées au territoire, par le traitement, l'analyse, et la visualisation de données statistiques ou même réglementaires. 
+Profil géographe passioné par la recherche de solutions liées à toute problématiques territoriale par le traitement, l'analyse, et la visualisation de données statistiques ou même réglementaires. 
 :::
 
 ## Visualiser quelques exemples de projets

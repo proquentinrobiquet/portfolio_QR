@@ -90,13 +90,7 @@ Cet atlas est une simplification. Quelques précautions :
 - **Des tronçons non calculés** peuvent être "traversés" par les lignes.
 - **Mes classes de légende (±0,2 m/an) ne sont pas celles du CEREMA (±0,1 m/an)** : à garder en tête en comparant avec Cartagène.
 
-## Carte interactive
-
-Carte interactive en cours de préparation.
 :::
-
-
-
 
 ### Et l'aménagement dans tout ça ?
 
@@ -114,7 +108,7 @@ Ce décalage ne signifie pas qu'il y a une erreur. L'indicateur mesure **le pass
 
 ## En conclusion : la mer monte, vraiment ?
 
-À l'échelle de la Région SUD, la réponse est **nuancée** : le recul du trait de côte est réel mais très **concentré**, surtout sur le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d'en prendre conscience vite, mais ne remplace ni les données détaillées, ni l'expertise locale pour décider d'un aménagement.
+À l'échelle de la Région SUD, la réponse est **plutôt nuancée** : le recul du trait de côte est réel mais très **concentré**, surtout dans le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d'en prendre conscience vite, mais ne remplace ni les données détaillées, ni l'expertise locale pour décider d'un aménagement.
 
 ## Données, outils et transparence
 

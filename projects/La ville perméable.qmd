@@ -74,6 +74,6 @@ Ces critères excluent [de nombreuses zones]{.underline}, mais ne suffisent pas 
 
 
 ## Résultats
-::::
+Cartographie statique à venir, en cours au 27.11.2026
 
-## Conclusions
+::::

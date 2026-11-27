@@ -1,9 +1,9 @@
 project:
   type: website
   
- #commenter si besoin pour désactiver render: #commenter si besoin pour désactiver
-    #commenter si besoin pour désactiver - "*.qmd" #commenter si besoin pour désactiver
-   #commenter si besoin pour désactiver  - "!loyer06.qmd" #commenter si besoin pour désactiver
+  render: #commenter si besoin pour désactiver
+     - "*.qmd" #commenter si besoin pour désactiver
+     - "!loyer06.qmd" #commenter si besoin pour désactiver
 
 website:
   draft-mode: visible
@@ -22,15 +22,15 @@ website:
       - href: cv_global.pdf
         text: "CV"
         icon: person-vcard
-    right:   
-      - text: Bonus
-        icon: filter-square
-        menu:
-          - href: autres_pages\Autre 1.qmd
-          - href: autres_pages\Autre 2.qmd
-          - href: loyer06.qmd
-            text: Carte des loyers 2025
-            icon: key-fill
+    #right:   
+      #- text: Bonus
+       # icon: filter-square
+       # menu:
+          #- href: autres_pages\Autre 1.qmd
+          #- href: autres_pages\Autre 2.qmd
+          #- href: loyer06.qmd
+          #  text: Carte des loyers 2025
+           # icon: key-fill
   back-to-top-navigation: true
 format:
   html:
@@ -39,5 +39,4 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-    format:
  
