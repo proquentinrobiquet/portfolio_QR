@@ -1,0 +1,25 @@
+/* css styles */
+.about-contents p {
+    text-align: justify;
+}
+.quarto-about-trestles {
+  max-width: 1200px;
+  margin: 2em 0 0 -7em;
+}
+/* Justifie les paragraphes du contenu principal */
+#quarto-document-content p {
+  text-align: justify;
+  hyphens: auto;   /* coupe les mots en fin de ligne pour éviter les grands blancs */
+}
+.carte-chiffre {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(27, 108, 168, 0.12);
+}
+.chiffre {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1b6ca8;
+}

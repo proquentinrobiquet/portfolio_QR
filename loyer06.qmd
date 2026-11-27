@@ -1,0 +1,80 @@
+---
+title: "Est-ce si difficile de se loger dans le 06 ?"
+format:
+    html:
+        code-fold: false
+        jupyter: python3
+---
+
+# La carte des loyers - 2025
+Se loger dans le 06 n'est pas aisé. 
+
+La carte des loyers c'est un projet démarré en 2018 par la Direction Générale de l’Aménagement, du Logement et de la Nature (DGALN). Repris par l’Agence Nationale pour l’Information sur le Logement (ANIL), c'est 9 millions d'annonces locatives Françaises en Métropole qui sont analysées sur la période 2019-2025... 
+Ainsi par département il est possible, d'estimer le loyer moyen que vous devriez payer pour la surface choisie (m²).
+
+Pour plus d'informations, [les données sont ici](https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025), et une note explicative, dont la lecture est conseillée [se retrouve par ici.](https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025?resource_id=0264d1fe-d5d2-45eb-9cf1-a2b706867441) !
+
+Les cartographies proposées correspondent aux loyers les plus élevés recensés dans la base de donnée "*upr.IPm2*".
+
+Cela permet, en quelques sortes, de "prendre en compte" l'augmentation des loyers.
+
+# Alors, quelle surface seriez-vous prêt à louer sur la côte d'Azur ?
+
+```{python}
+#| echo: false
+
+import pandas as pd
+import geopandas as gpd
+import os
+import matplotlib.pyplot as plt
+```
+```{python}
+#| echo: false
+
+#Ce code permet de préparer les données INSEE et géométries. Donc de réaliser les jointures nécessaires, voir le fichier d'origine pour plus de détails.
+
+os.chdir(r"C:/Users/FlowUP/Desktop/SIG/QUARTO/Website")
+
+map_loyer=gpd.read_file("loyers_AM.gpkg",layer="communes")
+
+```
+
+
+```{python}
+#| echo: false
+
+for m2 in [15, 30, 50, 100, 150, 200]:
+    map_loyer["Loyer médian prédit"] = map_loyer["loypredm2"].astype(int) * m2
+
+    m = map_loyer.explore(
+        column="Loyer médian prédit",
+        scheme="naturalbreaks",
+        k=5,
+        cmap="BuPu",#couleurs carte
+        tooltip=["nom_officiel", "Loyer médian prédit", "nbobs_com"],
+        popup=True,
+        legend_kwds=dict(colorbar=True),
+        style_kwds=dict(color="black", weight=0.6, fillOpacity=0.5)
+    )
+
+    # Sauvegarde la carte
+    m.save(f"_site/carte_{m2}.html")
+
+```
+<select id="surface" onchange="updateMap()">
+  <option value="15">15 m²</option>
+  <option value="30">30 m²</option>
+  <option value="50">50 m²</option>
+  <option value="100">100 m²</option>
+  <option value="150">150 m²</option>
+  <option value="200">200 m²</option>
+</select>
+<div id="map" style="height: 600px; width: 100%;"></div>
+<script>
+function updateMap() {
+  const m2 = document.getElementById("surface").value;
+  const mapFrame = document.getElementById("map");
+  mapFrame.innerHTML = `<iframe src="carte_${m2}.html" style="height: 100%; width: 100%; border: none;"></iframe>`;
+}
+window.onload = updateMap;
+</script>

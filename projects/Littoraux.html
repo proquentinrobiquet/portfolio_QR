@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Comment les dynamiques des littoraux influent les politiques d’aménagement en Région SUD ?">
+
+<title>La Mer monte ? Vraiment ?…</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8b348f4b4b74a528bf910da1e8c5139e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house-fill" role="img">
+</i> 
+<span class="menu-text">Quentin Robiquet</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cv_global.pdf"> <i class="bi bi-person-vcard" role="img">
+</i> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#lindicateur-national-de-lérosion-côtière-2026" id="toc-lindicateur-national-de-lérosion-côtière-2026" class="nav-link active" data-scroll-target="#lindicateur-national-de-lérosion-côtière-2026">L’Indicateur national de l’Érosion côtière 2026</a></li>
+  <li><a href="#en-région---un-département-sur-trois-touché" id="toc-en-région---un-département-sur-trois-touché" class="nav-link" data-scroll-target="#en-région---un-département-sur-trois-touché">En Région - Un département sur trois touché ?</a>
+  <ul class="collapse">
+  <li><a href="#et-laménagement-dans-tout-ça" id="toc-et-laménagement-dans-tout-ça" class="nav-link" data-scroll-target="#et-laménagement-dans-tout-ça">Et l’aménagement dans tout ça ?</a></li>
+  </ul></li>
+  <li><a href="#en-conclusion-la-mer-monte-vraiment" id="toc-en-conclusion-la-mer-monte-vraiment" class="nav-link" data-scroll-target="#en-conclusion-la-mer-monte-vraiment">En conclusion : la mer monte, vraiment ?</a></li>
+  <li><a href="#données-outils-et-transparence" id="toc-données-outils-et-transparence" class="nav-link" data-scroll-target="#données-outils-et-transparence">Données, outils et transparence</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">La Mer monte ? Vraiment ?…</h1>
+</div>
+
+<div>
+  <div class="description">
+    Comment les dynamiques des littoraux influent les politiques d’aménagement en Région SUD ?
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>En bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le CEREMA a publié cette année 2026 une seconde version de l’ndicateur national de l’érosion côtière. En Région SUD, le recul du trait de côte se localiserait sur <strong>deux communes du Delta du Rhône</strong>. Partout ailleurs, l’évolution est majoritairement <em>non perceptible</em>. Cette page propose un <strong>atlas par commune</strong> pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l’aménagement.</p>
+</div>
+</div>
+<section id="lindicateur-national-de-lérosion-côtière-2026" class="level2">
+<h2 class="anchored" data-anchor-id="lindicateur-national-de-lérosion-côtière-2026">L’Indicateur national de l’Érosion côtière 2026</h2>
+<p>Tout récemment, le CEREMA <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> a mis à jour la nouvelle version de l’indicateur national de l’érosion côtière. Ces résultats sont accessibles au grand public <a href="https://cartagene.cerema.fr/portal/apps/experiencebuilder/experience/?id=9dbd12049939465481fe76a126b5298f">grâce à cette application cartographique</a>. La première version de cet indicateur, réalisée entre 2015 et 2018, a constitué un référentiel, et les chiffres clés révisés en 2026 nous enseignent que :</p>
+<ul>
+<li><strong>près de 20 %</strong> des profils analysés sont en recul,</li>
+<li><strong>12 %</strong> en avancée (phénomène d’accrétion),</li>
+<li><strong>68 %</strong> restants ont une évolution non perceptible.</li>
+</ul>
+<p>L’actualisation récente concerne davantage de profils de traits de côte, et vient confirmer qu’environ 20 % des côtes naturelles sont en recul. Pourtant, le CEREMA précise que, selon les secteurs, le littoral alterne des phases d’avancée et de recul. C’est pourquoi choisir une unique période de référence accentue les phénomènes extrêmes (tempêtes, submersions, etc.), et choisir une période allongée peut lisser ces dynamiques. Observés localement, ces travaux montrent que les réalités sont très contrastées. Qu’en est-il pour la Région SUD ?…</p>
+<div id="fig-evolution-tc-national" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-evolution-tc-national-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="CEREMA_indicateur_national.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Évolution du trait de côte - par département (CEREMA 2026)"><img src="CEREMA_indicateur_national.png" class="img-fluid figure-img" style="width:30.0%"></a></p>
+<figcaption>Évolution du trait de côte - par département (CEREMA 2026)</figcaption>
+</figure>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-evolution-tc-national-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Comment lire ces chiffres ?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>L’indicateur repose sur des <strong>profils</strong>, c’est-à-dire des points de mesure placés <strong>tous les 50 m</strong> le long de la côte.</li>
+<li>À chaque profil est associé un <strong>taux d’évolution en mètres par an</strong> (m/an). Négatif : le trait de côte recule. Positif : il avance.</li>
+<li>Entre <strong>−0,1 et +0,1 m/an</strong>, l’évolution est dite <strong>non perceptible</strong>. Ce n’est pas “stable” au sens strict : le changement est trop faible pour être distingué de l’incertitude de mesure.</li>
+<li>L’indicateur <strong>ne distingue pas</strong> une avancée naturelle d’une avancée liée à un aménagement (port, remblai, ouvrage).</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="en-région---un-département-sur-trois-touché" class="level2">
+<h2 class="anchored" data-anchor-id="en-région---un-département-sur-trois-touché">En Région - Un département sur trois touché ?</h2>
+<p>Les Alpes-Maritimes et le Var ne présentent pas de phénomène de recul jugé “perceptible”. En revanche, près d’<strong>un cinquième des littoraux des Bouches-du-Rhône</strong> entre 1950 et 2020 auraient un recul significatif (de -3 m/an jusqu’à -0,5 m/an). Ce recul tient quasi exclusivement à deux communes du Delta du Rhône.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>⚠️ À noter : dans les données de la <a href="#fig-evolution-tc-national" class="quarto-xref">Figure&nbsp;1</a>, ce sont surtout les communes de <a href="Atlas_littoV1/Port-Saint-Louis-du-Rhône.webp" class="lightbox">Port-Saint-Louis-du-Rhône</a> et de <a href="Atlas_littoV1/Saintes-Maries-de-la-Mer.webp" class="lightbox">Saintes-Maries-de-la-Mer</a> qui sont sévèrement touchées par le phénomène de recul du trait de côte.</p>
+</div>
+</div>
+<p>Ci-dessous est proposé un Atlas de cette évolution du trait de côte, simplifié. Celui-ci permet de visualiser les dynamiques littorales par commune. Au lieu de représenter les polygones de recul ou d’avancée, des linéaires contenant la dynamique du trait de côte sont mis en avant. Cette méthode a des limites significatives (voir plus bas), <u>et n’a pas pour objectif</u> de constituer un outil d’aide à la décision.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Résultats</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Atlas des communes littorales (Région SUD)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Les limites de cette méthode</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Taux moyen d’évolution du trait de côte pour chaque commune littorale (période 2010-2020). Les communes sont classées du plus fort recul au plus fort gain.</p>
+<iframe src="https://flo.uri.sh/visualisation/30729580/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation">
+</iframe>
+<ul>
+<li><strong>Deux communes se détachent nettement</strong> : Port-Saint-Louis-du-Rhône et Saintes-Maries-de-la-Mer sont les deux communes du Delta citées plus haut.</li>
+<li><strong>La grande majorité des communes ont peu de recul (-0.1 à +0.1)</strong> : leur évolution moyenne est peu ou pas perceptible.</li>
+<li><strong>Certaines communes affichent une avancée</strong> (Fos-sur-Mer, par exemple, autour de +0,17 m/an).</li>
+</ul>
+<p>Attention : l’indicateur est sur la période 2010-2020, et ne distingue pas une avancée naturelle d’une avancée due aux aménagements (ex: brises-lames, zones portuaires, etc…).</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Cliquer sur une vignette pour l’agrandir, puis naviguer de commune en commune.</p>
+<div class="quarto-layout-panel" data-layout-ncol="7">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Antibes.webp" class="lightbox" data-gallery="communes" title="Antibes"><img src="Atlas_littoV1/Antibes.webp" title="Antibes" class="img-fluid figure-img" alt="Antibes"></a></p>
+<figcaption>Antibes</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Arles.webp" class="lightbox" data-gallery="communes" title="Arles"><img src="Atlas_littoV1/Arles.webp" title="Arles" class="img-fluid figure-img" alt="Arles"></a></p>
+<figcaption>Arles</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Bandol.webp" class="lightbox" data-gallery="communes" title="Bandol"><img src="Atlas_littoV1/Bandol.webp" title="Bandol" class="img-fluid figure-img" alt="Bandol"></a></p>
+<figcaption>Bandol</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Beaulieu-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Beaulieu-sur-Mer"><img src="Atlas_littoV1/Beaulieu-sur-Mer.webp" title="Beaulieu-sur-Mer" class="img-fluid figure-img" alt="Beaulieu-sur-Mer"></a></p>
+<figcaption>Beaulieu-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Bormes-les-Mimosas.webp" class="lightbox" data-gallery="communes" title="Bormes-les-Mimosas"><img src="Atlas_littoV1/Bormes-les-Mimosas.webp" title="Bormes-les-Mimosas" class="img-fluid figure-img" alt="Bormes-les-Mimosas"></a></p>
+<figcaption>Bormes-les-Mimosas</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cagnes-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Cagnes-sur-Mer"><img src="Atlas_littoV1/Cagnes-sur-Mer.webp" title="Cagnes-sur-Mer" class="img-fluid figure-img" alt="Cagnes-sur-Mer"></a></p>
+<figcaption>Cagnes-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cannes.webp" class="lightbox" data-gallery="communes" title="Cannes"><img src="Atlas_littoV1/Cannes.webp" title="Cannes" class="img-fluid figure-img" alt="Cannes"></a></p>
+<figcaption>Cannes</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cap-d'Ail.webp" class="lightbox" data-gallery="communes" title="Cap-d’Ail"><img src="Atlas_littoV1/Cap-d'Ail.webp" title="Cap-d'Ail" class="img-fluid figure-img" alt="Cap-d’Ail"></a></p>
+<figcaption>Cap-d’Ail</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Carqueiranne.webp" class="lightbox" data-gallery="communes" title="Carqueiranne"><img src="Atlas_littoV1/Carqueiranne.webp" title="Carqueiranne" class="img-fluid figure-img" alt="Carqueiranne"></a></p>
+<figcaption>Carqueiranne</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Carry-le-Rouet.webp" class="lightbox" data-gallery="communes" title="Carry-le-Rouet"><img src="Atlas_littoV1/Carry-le-Rouet.webp" title="Carry-le-Rouet" class="img-fluid figure-img" alt="Carry-le-Rouet"></a></p>
+<figcaption>Carry-le-Rouet</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cassis.webp" class="lightbox" data-gallery="communes" title="Cassis"><img src="Atlas_littoV1/Cassis.webp" title="Cassis" class="img-fluid figure-img" alt="Cassis"></a></p>
+<figcaption>Cassis</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cavalaire-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Cavalaire-sur-Mer"><img src="Atlas_littoV1/Cavalaire-sur-Mer.webp" title="Cavalaire-sur-Mer" class="img-fluid figure-img" alt="Cavalaire-sur-Mer"></a></p>
+<figcaption>Cavalaire-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Cogolin.webp" class="lightbox" data-gallery="communes" title="Cogolin"><img src="Atlas_littoV1/Cogolin.webp" title="Cogolin" class="img-fluid figure-img" alt="Cogolin"></a></p>
+<figcaption>Cogolin</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Ensuès-la-Redonne.webp" class="lightbox" data-gallery="communes" title="Ensuès-la-Redonne"><img src="Atlas_littoV1/Ensuès-la-Redonne.webp" title="Ensuès-la-Redonne" class="img-fluid figure-img" alt="Ensuès-la-Redonne"></a></p>
+<figcaption>Ensuès-la-Redonne</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Fos-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Fos-sur-Mer"><img src="Atlas_littoV1/Fos-sur-Mer.webp" title="Fos-sur-Mer" class="img-fluid figure-img" alt="Fos-sur-Mer"></a></p>
+<figcaption>Fos-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Fréjus.webp" class="lightbox" data-gallery="communes" title="Fréjus"><img src="Atlas_littoV1/Fréjus.webp" title="Fréjus" class="img-fluid figure-img" alt="Fréjus"></a></p>
+<figcaption>Fréjus</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Gassin.webp" class="lightbox" data-gallery="communes" title="Gassin"><img src="Atlas_littoV1/Gassin.webp" title="Gassin" class="img-fluid figure-img" alt="Gassin"></a></p>
+<figcaption>Gassin</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Grimaud.webp" class="lightbox" data-gallery="communes" title="Grimaud"><img src="Atlas_littoV1/Grimaud.webp" title="Grimaud" class="img-fluid figure-img" alt="Grimaud"></a></p>
+<figcaption>Grimaud</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Hyères.webp" class="lightbox" data-gallery="communes" title="Hyères"><img src="Atlas_littoV1/Hyères.webp" title="Hyères" class="img-fluid figure-img" alt="Hyères"></a></p>
+<figcaption>Hyères</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/La Ciotat.webp" class="lightbox" data-gallery="communes" title="La Ciotat"><img src="Atlas_littoV1/La Ciotat.webp" title="La Ciotat" class="img-fluid figure-img" alt="La Ciotat"></a></p>
+<figcaption>La Ciotat</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/La Croix-Valmer.webp" class="lightbox" data-gallery="communes" title="La Croix-Valmer"><img src="Atlas_littoV1/La Croix-Valmer.webp" title="La Croix-Valmer" class="img-fluid figure-img" alt="La Croix-Valmer"></a></p>
+<figcaption>La Croix-Valmer</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/La Garde.webp" class="lightbox" data-gallery="communes" title="La Garde"><img src="Atlas_littoV1/La Garde.webp" title="La Garde" class="img-fluid figure-img" alt="La Garde"></a></p>
+<figcaption>La Garde</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/La Londe-les-Maures.webp" class="lightbox" data-gallery="communes" title="La Londe-les-Maures"><img src="Atlas_littoV1/La Londe-les-Maures.webp" title="La Londe-les-Maures" class="img-fluid figure-img" alt="La Londe-les-Maures"></a></p>
+<figcaption>La Londe-les-Maures</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/La Seyne-sur-Mer.webp" class="lightbox" data-gallery="communes" title="La Seyne-sur-Mer"><img src="Atlas_littoV1/La Seyne-sur-Mer.webp" title="La Seyne-sur-Mer" class="img-fluid figure-img" alt="La Seyne-sur-Mer"></a></p>
+<figcaption>La Seyne-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Le Lavandou.webp" class="lightbox" data-gallery="communes" title="Le Lavandou"><img src="Atlas_littoV1/Le Lavandou.webp" title="Le Lavandou" class="img-fluid figure-img" alt="Le Lavandou"></a></p>
+<figcaption>Le Lavandou</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Le Pradet.webp" class="lightbox" data-gallery="communes" title="Le Pradet"><img src="Atlas_littoV1/Le Pradet.webp" title="Le Pradet" class="img-fluid figure-img" alt="Le Pradet"></a></p>
+<figcaption>Le Pradet</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Le Rove.webp" class="lightbox" data-gallery="communes" title="Le Rove"><img src="Atlas_littoV1/Le Rove.webp" title="Le Rove" class="img-fluid figure-img" alt="Le Rove"></a></p>
+<figcaption>Le Rove</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Mandelieu-la-Napoule.webp" class="lightbox" data-gallery="communes" title="Mandelieu-la-Napoule"><img src="Atlas_littoV1/Mandelieu-la-Napoule.webp" title="Mandelieu-la-Napoule" class="img-fluid figure-img" alt="Mandelieu-la-Napoule"></a></p>
+<figcaption>Mandelieu-la-Napoule</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Marseille.webp" class="lightbox" data-gallery="communes" title="Marseille"><img src="Atlas_littoV1/Marseille.webp" title="Marseille" class="img-fluid figure-img" alt="Marseille"></a></p>
+<figcaption>Marseille</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Martigues.webp" class="lightbox" data-gallery="communes" title="Martigues"><img src="Atlas_littoV1/Martigues.webp" title="Martigues" class="img-fluid figure-img" alt="Martigues"></a></p>
+<figcaption>Martigues</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Menton.webp" class="lightbox" data-gallery="communes" title="Menton"><img src="Atlas_littoV1/Menton.webp" title="Menton" class="img-fluid figure-img" alt="Menton"></a></p>
+<figcaption>Menton</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Nice.webp" class="lightbox" data-gallery="communes" title="Nice"><img src="Atlas_littoV1/Nice.webp" title="Nice" class="img-fluid figure-img" alt="Nice"></a></p>
+<figcaption>Nice</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Port-de-Bouc.webp" class="lightbox" data-gallery="communes" title="Port-de-Bouc"><img src="Atlas_littoV1/Port-de-Bouc.webp" title="Port-de-Bouc" class="img-fluid figure-img" alt="Port-de-Bouc"></a></p>
+<figcaption>Port-de-Bouc</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Port-Saint-Louis-du-Rhône.webp" class="lightbox" data-gallery="communes" title="Port-Saint-Louis-du-Rhône"><img src="Atlas_littoV1/Port-Saint-Louis-du-Rhône.webp" title="Port-Saint-Louis-du-Rhône" class="img-fluid figure-img" alt="Port-Saint-Louis-du-Rhône"></a></p>
+<figcaption>Port-Saint-Louis-du-Rhône</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Ramatuelle.webp" class="lightbox" data-gallery="communes" title="Ramatuelle"><img src="Atlas_littoV1/Ramatuelle.webp" title="Ramatuelle" class="img-fluid figure-img" alt="Ramatuelle"></a></p>
+<figcaption>Ramatuelle</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Rayol-Canadel-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Rayol-Canadel-sur-Mer"><img src="Atlas_littoV1/Rayol-Canadel-sur-Mer.webp" title="Rayol-Canadel-sur-Mer" class="img-fluid figure-img" alt="Rayol-Canadel-sur-Mer"></a></p>
+<figcaption>Rayol-Canadel-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Roquebrune-Cap-Martin.webp" class="lightbox" data-gallery="communes" title="Roquebrune-Cap-Martin"><img src="Atlas_littoV1/Roquebrune-Cap-Martin.webp" title="Roquebrune-Cap-Martin" class="img-fluid figure-img" alt="Roquebrune-Cap-Martin"></a></p>
+<figcaption>Roquebrune-Cap-Martin</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Roquebrune-sur-Argens.webp" class="lightbox" data-gallery="communes" title="Roquebrune-sur-Argens"><img src="Atlas_littoV1/Roquebrune-sur-Argens.webp" title="Roquebrune-sur-Argens" class="img-fluid figure-img" alt="Roquebrune-sur-Argens"></a></p>
+<figcaption>Roquebrune-sur-Argens</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Cyr-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Saint-Cyr-sur-Mer"><img src="Atlas_littoV1/Saint-Cyr-sur-Mer.webp" title="Saint-Cyr-sur-Mer" class="img-fluid figure-img" alt="Saint-Cyr-sur-Mer"></a></p>
+<figcaption>Saint-Cyr-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Jean-Cap-Ferrat.webp" class="lightbox" data-gallery="communes" title="Saint-Jean-Cap-Ferrat"><img src="Atlas_littoV1/Saint-Jean-Cap-Ferrat.webp" title="Saint-Jean-Cap-Ferrat" class="img-fluid figure-img" alt="Saint-Jean-Cap-Ferrat"></a></p>
+<figcaption>Saint-Jean-Cap-Ferrat</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Laurent-du-Var.webp" class="lightbox" data-gallery="communes" title="Saint-Laurent-du-Var"><img src="Atlas_littoV1/Saint-Laurent-du-Var.webp" title="Saint-Laurent-du-Var" class="img-fluid figure-img" alt="Saint-Laurent-du-Var"></a></p>
+<figcaption>Saint-Laurent-du-Var</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Mandrier-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Saint-Mandrier-sur-Mer"><img src="Atlas_littoV1/Saint-Mandrier-sur-Mer.webp" title="Saint-Mandrier-sur-Mer" class="img-fluid figure-img" alt="Saint-Mandrier-sur-Mer"></a></p>
+<figcaption>Saint-Mandrier-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Raphaël.webp" class="lightbox" data-gallery="communes" title="Saint-Raphaël"><img src="Atlas_littoV1/Saint-Raphaël.webp" title="Saint-Raphaël" class="img-fluid figure-img" alt="Saint-Raphaël"></a></p>
+<figcaption>Saint-Raphaël</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saint-Tropez.webp" class="lightbox" data-gallery="communes" title="Saint-Tropez"><img src="Atlas_littoV1/Saint-Tropez.webp" title="Saint-Tropez" class="img-fluid figure-img" alt="Saint-Tropez"></a></p>
+<figcaption>Saint-Tropez</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Sainte-Maxime.webp" class="lightbox" data-gallery="communes" title="Sainte-Maxime"><img src="Atlas_littoV1/Sainte-Maxime.webp" title="Sainte-Maxime" class="img-fluid figure-img" alt="Sainte-Maxime"></a></p>
+<figcaption>Sainte-Maxime</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Saintes-Maries-de-la-Mer.webp" class="lightbox" data-gallery="communes" title="Saintes-Maries-de-la-Mer"><img src="Atlas_littoV1/Saintes-Maries-de-la-Mer.webp" title="Saintes-Maries-de-la-Mer" class="img-fluid figure-img" alt="Saintes-Maries-de-la-Mer"></a></p>
+<figcaption>Saintes-Maries-de-la-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Sanary-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Sanary-sur-Mer"><img src="Atlas_littoV1/Sanary-sur-Mer.webp" title="Sanary-sur-Mer" class="img-fluid figure-img" alt="Sanary-sur-Mer"></a></p>
+<figcaption>Sanary-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Sausset-les-Pins.webp" class="lightbox" data-gallery="communes" title="Sausset-les-Pins"><img src="Atlas_littoV1/Sausset-les-Pins.webp" title="Sausset-les-Pins" class="img-fluid figure-img" alt="Sausset-les-Pins"></a></p>
+<figcaption>Sausset-les-Pins</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Six-Fours-les-Plages.webp" class="lightbox" data-gallery="communes" title="Six-Fours-les-Plages"><img src="Atlas_littoV1/Six-Fours-les-Plages.webp" title="Six-Fours-les-Plages" class="img-fluid figure-img" alt="Six-Fours-les-Plages"></a></p>
+<figcaption>Six-Fours-les-Plages</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Théoule-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Théoule-sur-Mer"><img src="Atlas_littoV1/Théoule-sur-Mer.webp" title="Théoule-sur-Mer" class="img-fluid figure-img" alt="Théoule-sur-Mer"></a></p>
+<figcaption>Théoule-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Toulon.webp" class="lightbox" data-gallery="communes" title="Toulon"><img src="Atlas_littoV1/Toulon.webp" title="Toulon" class="img-fluid figure-img" alt="Toulon"></a></p>
+<figcaption>Toulon</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Vallauris.webp" class="lightbox" data-gallery="communes" title="Vallauris"><img src="Atlas_littoV1/Vallauris.webp" title="Vallauris" class="img-fluid figure-img" alt="Vallauris"></a></p>
+<figcaption>Vallauris</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Villefranche-sur-Mer.webp" class="lightbox" data-gallery="communes" title="Villefranche-sur-Mer"><img src="Atlas_littoV1/Villefranche-sur-Mer.webp" title="Villefranche-sur-Mer" class="img-fluid figure-img" alt="Villefranche-sur-Mer"></a></p>
+<figcaption>Villefranche-sur-Mer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Villeneuve-Loubet.webp" class="lightbox" data-gallery="communes" title="Villeneuve-Loubet"><img src="Atlas_littoV1/Villeneuve-Loubet.webp" title="Villeneuve-Loubet" class="img-fluid figure-img" alt="Villeneuve-Loubet"></a></p>
+<figcaption>Villeneuve-Loubet</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 14.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Atlas_littoV1/Èze.webp" class="lightbox" data-gallery="communes" title="Èze"><img src="Atlas_littoV1/Èze.webp" title="Èze" class="img-fluid figure-img" alt="Èze"></a></p>
+<figcaption>Èze</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Cet atlas est une simplification. Quelques précautions :</p>
+<ul>
+<li><strong>Les lignes sont des repères, pas la côte elle-même</strong> : elles sont construites à partir du centre des polygones d’évolution, donc décalées du trait de côte réel.</li>
+<li><strong>Une moyenne par commune cache des réalités opposées</strong> : sur un même linéaire, un secteur en recul et un secteur en avancée peuvent s’annuler.</li>
+<li><strong>Les petits linéaires pèsent peu</strong> : certaines communes sont représentées par très peu de profils (quelques unités), leur moyenne est donc fragile.</li>
+<li><strong>Des tronçons non calculés</strong> peuvent être “traversés” par les lignes.</li>
+<li><strong>Mes classes de légende (±0,2 m/an) ne sont pas celles du CEREMA (±0,1 m/an)</strong> : à garder en tête en comparant avec Cartagène.</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="et-laménagement-dans-tout-ça" class="level3">
+<h3 class="anchored" data-anchor-id="et-laménagement-dans-tout-ça">Et l’aménagement dans tout ça ?</h3>
+<p>Le recul du trait de côte est devenu un sujet de planification. Dans le cadre de la loi Climat et Résilience, une liste de communes particulièrement exposées est fixée par décret. Ces communes doivent établir des <strong>cartes locales d’exposition au recul du trait de côte</strong>, qui projettent l’érosion à 30 ans puis entre 30 et 100 ans, et les intégrer à leurs documents d’urbanisme (PLU).</p>
+<p>Dans les Bouches-du-Rhône, le décret <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000045726134">2022-750 du 29 avril 2022</a> retient six communes : <strong>Arles, Cassis, La Ciotat, Marseille, Port-de-Bouc et Sausset-les-Pins</strong>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Un décalage à interroger
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Les deux communes qui reculent le plus dans l’indicateur 2010-2020, <strong>Port-Saint-Louis-du-Rhône</strong> et <strong>Saintes-Maries-de-la-Mer</strong>, ne figurent pas dans cette liste. À l’inverse, les six communes listées présentent des évolutions moyennes non perceptibles sur la même période.</p>
+</div>
+</div>
+<p>Ce décalage ne signifie pas qu’il y a une erreur. L’indicateur mesure <strong>le passé</strong> sur une période donnée, alors que les cartes locales portent sur <strong>des projections</strong> et sur des enjeux (bâti, activités, submersion marine) que la seule vitesse de recul ne résume pas. Reste à comprendre, au cas par cas, ce qui explique les choix de la liste.</p>
+</section>
+</section>
+<section id="en-conclusion-la-mer-monte-vraiment" class="level2">
+<h2 class="anchored" data-anchor-id="en-conclusion-la-mer-monte-vraiment">En conclusion : la mer monte, vraiment ?</h2>
+<p>À l’échelle de la Région SUD, la réponse est <strong>plutôt nuancée</strong> : le recul du trait de côte est réel mais très <strong>concentré</strong>, surtout dans le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d’en prendre conscience vite, mais ne remplace ni les données détaillées, ni l’expertise locale pour décider d’un aménagement.</p>
+</section>
+<section id="données-outils-et-transparence" class="level2">
+<h2 class="anchored" data-anchor-id="données-outils-et-transparence">Données, outils et transparence</h2>
+<ul>
+<li><strong>Données</strong> : Indicateur national de l’érosion côtière – version 2026, CEREMA. <em>Source : Indicateur national de l’érosion côtière – Version 2026 – Cerema, 2026.</em></li>
+<li><strong>Outils</strong> : QGIS, Excel, Python (génération de l’Atlas), Quarto.</li>
+</ul>
+
+
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
+
+<ol>
+<li id="fn1"><p><em>Centre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement</em>. <a href="https://www.cerema.fr/fr/cerema">Site</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Site réalisé par Quentin Robiquet - 2026 - réalisé avec <a href="https://quarto.org">Quarto</a> 🩵​</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../about.html">
+<p>À propos</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

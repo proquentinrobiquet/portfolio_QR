@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "tests.html",
+    "href": "tests.html",
+    "title": "Zone de tests",
+    "section": "",
+    "text": "Ici est contenu tous les tests à venir pour présenter de supers travaux\ndocumentation HTML\nPourquoi pas des colonnes textuelles?"
+  },
+  {
+    "objectID": "tests.html#tests-à-prévoir",
+    "href": "tests.html#tests-à-prévoir",
+    "title": "Zone de tests",
+    "section": "Tests à prévoir",
+    "text": "Tests à prévoir\nIl est possible de prévoir des parametres avec un bloc : ’’’ #| tags [parameters] nom=“departements_fr” filtre=“06” ’’’"
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html",
+    "href": "projects/PPRi et ZAE.html",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "",
+    "text": "Selon l’INSEE, près d’un million d’habitants vivent en zone inondable 1 en Provence-Alpes-Côte d’Azur, soit 19 % de la population (INSEE, 2016) 2, dans des territoires « à près de 80 % urbains ». Localement c’est 22 % dans le Var et 29 % dans les Alpes-Maritimes. Toutefois, les zones d’activités économiques (ZAE) ne sont pas toujours identifiées dans les Plans de prévention des risques inondations (PPRi).\n\n\nCes Zones d’activités économiques (ZAE), reconnues au PLU comme lieux d’accueil d’entreprises (industrie, artisanat, ingénierie), concentrent flux et emplois : - environ 121 000 emplois dans les Alpes-Maritimes, - et 100 000 dans le Var (Sud Foncier Eco, 2024).\n\n\nLa question : les plans de prévention (PPRi) tiennent-ils compte de ces emplois ?"
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#million-dhabitants-exposés.-quid-des-zones-dactivités-économiques",
+    "href": "projects/PPRi et ZAE.html#million-dhabitants-exposés.-quid-des-zones-dactivités-économiques",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "",
+    "text": "Selon l’INSEE, près d’un million d’habitants vivent en zone inondable 1 en Provence-Alpes-Côte d’Azur, soit 19 % de la population (INSEE, 2016) 2, dans des territoires « à près de 80 % urbains ». Localement c’est 22 % dans le Var et 29 % dans les Alpes-Maritimes. Toutefois, les zones d’activités économiques (ZAE) ne sont pas toujours identifiées dans les Plans de prévention des risques inondations (PPRi).\n\n\nCes Zones d’activités économiques (ZAE), reconnues au PLU comme lieux d’accueil d’entreprises (industrie, artisanat, ingénierie), concentrent flux et emplois : - environ 121 000 emplois dans les Alpes-Maritimes, - et 100 000 dans le Var (Sud Foncier Eco, 2024).\n\n\nLa question : les plans de prévention (PPRi) tiennent-ils compte de ces emplois ?"
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#comment-un-ppri-mesure-le-risque",
+    "href": "projects/PPRi et ZAE.html#comment-un-ppri-mesure-le-risque",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "Comment un PPRi mesure le risque",
+    "text": "Comment un PPRi mesure le risque\nLe Risque est la combinaison : Aléa X enjeu. Sans aléa, pas de risque. Sans enjeu, pas de risque non plus.\n\nAléa : hauteur d’eau, vitesse d’écoulement, probabilités construites sur des événements historiques ou de la modélisation.\nEnjeux ponctuels : gestion de crise, établissements sensibles, lieux recevant du public, tourisme.\nEnjeux surfaciques : centres urbains (CU), autres zones urbanisées (AZU), zones peu ou pas urbanisées (ZPPU).\n\nCe croisement est le socle du plan de prévention des risques.\n\n\n\n\n\n\nMise en gardePrécisions sur la méthodologie d’élaboration des PPRi\n\n\n\n\n\nLe guide d’élaboration des PPRi établit par le Ministère de l’Écologie, propose de délimiter des niveaux d’urbanisation respectivement cités dans le code de l’environnement (R 562-11-6). 3\n\nCU : quartiers historiques, denses, bâti continu, usages mixtes.\nAZU : zones urbanisées qui ne sont pas des centres urbains, bâti discontinu, de dense à moyennement dense.\nZPPU : bâti clairsemé ou absent."
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#langle-mort",
+    "href": "projects/PPRi et ZAE.html#langle-mort",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "“L’angle mort”",
+    "text": "“L’angle mort”\nLes PPRi de Cannes (2020), Antibes et Biot (2022), Grasse et Mougins (2023) classent les enjeux en CU / AZU / ZPPU. Aucune classe ne désigne les zones d’activités, pouvant être inclues indirectement dans ces catégories.. De plus, les « autres zones urbanisées » sont définies par défaut comme celles hors centre-urbain, et zones peu urbanisées.\n\n\n\n\n\n\nAvertissementLe cas de Grasse\n\n\n\nSeul le PPRi de Grasse cite des ICPE, des sites Seveso ou des usines chimiques, repérés pour le danger représentés, moins pour les emplois exposés."
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#résultats",
+    "href": "projects/PPRi et ZAE.html#résultats",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "Résultats",
+    "text": "Résultats\n\nChiffres clésEn carte dynamiqueExplorer les Zones d’activités en risques inondationLimites\n\n\nCe qui est proposé ici : croisement des zonages réglementaires des PPRi (rouge : aléa fort ; bleu : aléa moyen ou modéré) avec les zones d’activités des Alpes-Maritimes et du Var.\n\n99 % de la plus grande zone d’activités des Alpes-Maritimes, Carros-Le Broc, est concernée par un risque d’inondation,\n82% pour la zone de Saint-hermentaire à Draguignan dans le Var,\n2 zones sur 5 du Var et des Alpes-Maritimes, ont plus de la moitié de leur foncier concerné par un risque inondation.\nEnfin, on estime 100 000 emplois concernés dans ces zones d’activités, par le risque d’inondation.\n\n\n\n\n\nMake this Notebook Trusted to load map: File -&gt; Trust Notebook\n\n\n\n\n\n\n\n\n\nCette courte étude fait un focus Var et Alpes-Maritimes,\nLes zonages des zones d’activités ne sont pas toujours à jour des évolutions réglementaires,\nCette lecture de documents publics n’est pas évaluation du risque réel."
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#sources-et-définitions",
+    "href": "projects/PPRi et ZAE.html#sources-et-définitions",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "Sources et définitions",
+    "text": "Sources et définitions\n\nINSEE Analyses PACA n° 65 (2018).\nDonnées WFS : DDTM 83, DDTM 06, Sud Foncier Eco. Traitements : Quentin Robiquet."
+  },
+  {
+    "objectID": "projects/PPRi et ZAE.html#footnotes",
+    "href": "projects/PPRi et ZAE.html#footnotes",
+    "title": "Zones d’activités : l’angle mort des risques inondations ?",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nUne zone inondable est une zone susceptible d’être naturellement envahie par l’eau lors des crues importantes d’une rivière voir géorisques.↩︎\nINSEE Analyses Provence-Alpes-Côte d’Azur n° 65, octobre 2018, « Un million d’habitants vivent en zone inondable ». Les zones inondables sont définies à partir de l’atlas des zones inondables (jusqu’au lit majeur exceptionnel), et non à partir des zonages des PPRI.↩︎\nRapports de présentation et cartes des enjeux des PPRI de Cannes, Antibes, Biot, Grasse et Mougins.↩︎"
+  },
+  {
+    "objectID": "projects/La ville perméable.html",
+    "href": "projects/La ville perméable.html",
+    "title": "La ville perméable",
+    "section": "",
+    "text": "Reconstitution partielle d’une étude réalisée avec la Métropole Nice côte d’azur & Régie eau d’azur."
+  },
+  {
+    "objectID": "projects/La ville perméable.html#définition-concept",
+    "href": "projects/La ville perméable.html#définition-concept",
+    "title": "La ville perméable",
+    "section": "Définition, concept",
+    "text": "Définition, concept\nLa construction des villes, l’urbanisation, et de surcroît l’imperméabilisation1 des sols a des conséquences sur le cycle de l’eau. En milieu urbain, l’équilibre entre le “trop peu” ou le “bien trop” d’eau est exacerbé par l’évolution du climat. En effet, l’intensité des épisodes de sécheresses, ou des épisodes pluvieux, pousse les politiques publiques d’aménagement à s’adapter, et à s’adapter rapidement. Apparu fin des années 2000 au travers :\n\ndu terme “ville-éponge” en Chine,\nd’alternatives aux ouvrages classiques d’eaux pluviales aux Etats-Unis,\nde quartiers complétements aménagés pour gérer au mieux les eaux pluviales en Suède…\n\nla “Ville perméable” porte bien des noms. En France Métropolitaine, nombreuses sont les villes qui ont adopté ces principes d’aménagements : - Lyon, - Paris, - Bordeaux, - Nantes\nToutes ces présenten des projets d’aménagements qui d’une part améliorent le quotidien des habitants, et d’autre part atténuent les volumes d’eaux à gérer dans les systèmes d’assainissement.\n\n\n\n\n\n\nNoteQuelle définition pour la ville perméable ?\n\n\n\nApproche d’aménagement promouvant la gestion de l’eau de pluie au plus près de l’endroit où elle tombe en réduisant les surfaces imperméables et en s’appuyant sur des solutions alternatives au tout-tuyau (par infiltration, stockage, voir réutilisation).\n\n\n\n💧​ Théorie et PratiqueQuelles contraintes et sélections ?Résultats\n\n\nLa théorie est cette amélioration entre espaces artificialisés, et espaces naturels pour rendre la ville capable de gérer une plus grande quantité d’eeau de pluie. Or en pratique, la ville est déjà bâtie, contraignant les champs d’actions sur :\n\nLe foncier sous maîtrise foncière publique,\nLes nouveaux espaces à construire,\nLes réhabilitations d’aménagements.\n\n\n\n\n\n\n\nImportant\n\n\n\nTout l’enjeu réside dans l’identification des zones où il est possible d’agir pour porter une “stratégie de ville perméable”. Désimperméabiliser, et perméabiliser en amont de projets de constructions.\n\n\n\n\n\nUne mission pour un géographe/géomaticien\nSelon la méthode “EPODES” proposée par le CEREMA les critères sont ;\n\n\n\nEn schéma\n\n\nEn détails : 1. Exclure : - Les pentes : à plus de 10% aucune infiltration est envisageable, car l’eau ruisselle davantage qu’elle ne s’infiltre. - Les sols : instables, soumis à mouvements de terrain. Ces sols sont parfois situés en milieu anthropisés et concerne ; - les Plans de prévention mouvements de terrain, les porter à connaissances associés, - Les risques de retrait et gonflement des argiles, les sols pollués, les risques inondations par remontée de nappe, - Certaines zones avec des cartes d’aptitude à la construction… - PLU/PLU(-i) : les zones naturelles (aucun intérêt à désimperméabiliser 😉 !) - Servitudes : protections rapprochées de captages d’eau potable 2. Retenir : - PLU/PLU(-i) : les zones “U” & “AU” voir sous conditions “A” 3. Compléter par des données, comme l’OCSGE (IGN) : caractérisant les couvertures et usages du sol, pour identifier les surfaces déjà imperméabilisées.\nCes critères excluent de nombreuses zones, mais ne suffisent pas à identifier toutes les zones d’exclusion, devant s’appuyer sur une étude de perméabilité rigoureuse et du terrain.\nVoir aussi : Infiltrabilité et imperméabilité\n\n\n\nCartographie statique à venir, en cours au 27.11.2026"
+  },
+  {
+    "objectID": "projects/La ville perméable.html#footnotes",
+    "href": "projects/La ville perméable.html#footnotes",
+    "title": "La ville perméable",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nL’imperméabilisation des sols correspond au recouvrement d’un sol par un matériau imperméable réduisant l’infiltration de l’eau, et donc son ruissellement.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quentin Robiquet",
+    "section": "",
+    "text": "Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j’ai travaillé sur une diversité de sujets liés au territoire. Passant par l’élaboration d’une stratégie “ville perméable”, à un diagnostic petite enfance pour la ville de Nice, à la construction d’atlas pour un projet Européen… Je suis familier avec tous traitements, analyses, mise en lumière des données géographiques au service de l’intérêt général. J’ai principalement abordé des travaux concernant urbanisme réglementaire (à la CCI de Nice), démographie (INSEE RP), les risques (PPRi-mvt) et la désimperméabilisation des sols (OCSGE/RGE Alti).\n\n\n\n\n\n\nTipEn une phrase\n\n\n\nProfil géographe passioné par la recherche de solutions liées à toute problématiques territoriale par le traitement, l’analyse, et la visualisation de données statistiques ou même réglementaires.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nSIG : QGIS (Atlas, DataPlotly, OpenRouteService)\nApplications SIG en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), MVIEWER, Flourish, Umap (OpenStreetMap)\nCommunication CAO/DAO: Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)\nAnalyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (en formation)\nUrbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d’utilité publique & Mise en compatibilité)\nIntelligence Artificielle : conception de plugins QGIS par IA, automatisations de veille simple, webscraping de données.\n\n\n\n\n\nChargé d’études Observatoires et analyses territoriales Nice, Sept 2025. à aujourd’hui - Agence d’Urbanisme Azuréenne (fermeture programmée)\nChargé de mission urbanisme réglementaire Nice, 2023-2025 - Chambre de commerce et d’industrie de Nice\nChargé de renseignements d’urbanisme 2021-2022, Septeo-Proptech/Kinaxia - Valbonne"
+  },
+  {
+    "objectID": "index.html#visualiser-quelques-exemples-de-projets",
+    "href": "index.html#visualiser-quelques-exemples-de-projets",
+    "title": "Quentin Robiquet",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "index.html#compétences",
+    "href": "index.html#compétences",
+    "title": "Quentin Robiquet",
+    "section": "",
+    "text": "SIG : QGIS (Atlas, DataPlotly, OpenRouteService)\nApplications SIG en ligne : LizMap, ArcGIS Online (Dashboard, Experience Builder), MVIEWER, Flourish, Umap (OpenStreetMap)\nCommunication CAO/DAO: Inkscape, Designcraft (cartographie), Word, PowerPoint, OneNote, syntaxe Markdown (rédaction)\nAnalyse de données : Excel (Automatisations, Tableaux de bords), Python : Geopandas, matplotlib, folium (en formation)\nUrbanisme réglementaire : Accompagnement aux modifications réglementaires (SRADDET, PLUi/PLU), analyse de projets de modifications (droit commun, simplifiée, Déclaration d’utilité publique & Mise en compatibilité)\nIntelligence Artificielle : conception de plugins QGIS par IA, automatisations de veille simple, webscraping de données."
+  },
+  {
+    "objectID": "index.html#expériences",
+    "href": "index.html#expériences",
+    "title": "Quentin Robiquet",
+    "section": "",
+    "text": "Chargé d’études Observatoires et analyses territoriales Nice, Sept 2025. à aujourd’hui - Agence d’Urbanisme Azuréenne (fermeture programmée)\nChargé de mission urbanisme réglementaire Nice, 2023-2025 - Chambre de commerce et d’industrie de Nice\nChargé de renseignements d’urbanisme 2021-2022, Septeo-Proptech/Kinaxia - Valbonne"
+  },
+  {
+    "objectID": "autres_pages/Autre 1.html",
+    "href": "autres_pages/Autre 1.html",
+    "title": "Bonus 1",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "Occupation batie 2025.html",
+    "href": "Occupation batie 2025.html",
+    "title": "Occupation bâtie 2025 - Prochaine exploration à venir",
+    "section": "",
+    "text": "Le cadastre Métropolitain est en ligne et se trouve sous différentes sources. L’une d’entre elle nous donne accès au Coefficient d’occupation des sols. On peut donc connaître si une parcelle a plus ou moins d’emprise bâtie. Et la visualisation de cette donnée est toujours, super joli !\n\n\n\nprint(\"Au plaisir de vous partager une carte ici bientôt !\")\n\nAu plaisir de vous partager une carte ici bientôt !"
+  },
+  {
+    "objectID": "Occupation batie 2025.html#cartographie-de-lemprise-bâtie-mnca---choisissez-votre-rampe-de-couleurs",
+    "href": "Occupation batie 2025.html#cartographie-de-lemprise-bâtie-mnca---choisissez-votre-rampe-de-couleurs",
+    "title": "Occupation bâtie 2025 - Prochaine exploration à venir",
+    "section": "",
+    "text": "print(\"Au plaisir de vous partager une carte ici bientôt !\")\n\nAu plaisir de vous partager une carte ici bientôt !"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Cartes présentées\nL’ensemble des cartographies présentées dans ce portfolio ont été reproduites grâce à des données publiques disponibles. Les projets sont inspirés de travaux confiés au sein de l’Agence d’urbanisme Azuréenne ou de la Chambre de commerce et d’industrie de Nice. Ce site a la vocation de vous présenter mon profil.\n\n\nComment est réalisé ce site ?\nQuarto est un projet open-source dédié à la publication d’articles scientifiques, de livres, la création de site avec intégration des languages de programmations : python, R, Julia. Pour explorer d’autres projets Quarto : c’est par ici !\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "autres_pages/Autre 2.html",
+    "href": "autres_pages/Autre 2.html",
+    "title": "Bonus 2",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "projects/La petite enfance.html",
+    "href": "projects/La petite enfance.html",
+    "title": "Démographie de la petite enfance",
+    "section": "",
+    "text": "Cette étude menée avec la ville de Nice a sollicité les services de l’Etat Civil, de l’Agence d’urbanisme azureenne, et de la Direction de la famille de Nice. Les données sont sensibles (RGPD +) et les résultats présentés ici seront exclusivement issus de données publiques (Insee, Etat civil et traitements associés)."
+  },
+  {
+    "objectID": "projects/La petite enfance.html#en-cours-de-rédaction-25.11.2026-nhésitez-pas-à-consulter-les-autres-projets",
+    "href": "projects/La petite enfance.html#en-cours-de-rédaction-25.11.2026-nhésitez-pas-à-consulter-les-autres-projets",
+    "title": "Démographie de la petite enfance",
+    "section": "",
+    "text": "Cette étude menée avec la ville de Nice a sollicité les services de l’Etat Civil, de l’Agence d’urbanisme azureenne, et de la Direction de la famille de Nice. Les données sont sensibles (RGPD +) et les résultats présentés ici seront exclusivement issus de données publiques (Insee, Etat civil et traitements associés)."
+  },
+  {
+    "objectID": "projects/Littoraux.html",
+    "href": "projects/Littoraux.html",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "",
+    "text": "AstuceEn bref\n\n\n\nLe CEREMA a publié cette année 2026 une seconde version de l’ndicateur national de l’érosion côtière. En Région SUD, le recul du trait de côte se localiserait sur deux communes du Delta du Rhône. Partout ailleurs, l’évolution est majoritairement non perceptible. Cette page propose un atlas par commune pour le visualiser, et discute ce que ces chiffres changent (ou pas) pour l’aménagement."
+  },
+  {
+    "objectID": "projects/Littoraux.html#lindicateur-national-de-lérosion-côtière-2026",
+    "href": "projects/Littoraux.html#lindicateur-national-de-lérosion-côtière-2026",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "L’Indicateur national de l’Érosion côtière 2026",
+    "text": "L’Indicateur national de l’Érosion côtière 2026\nTout récemment, le CEREMA 1 a mis à jour la nouvelle version de l’indicateur national de l’érosion côtière. Ces résultats sont accessibles au grand public grâce à cette application cartographique. La première version de cet indicateur, réalisée entre 2015 et 2018, a constitué un référentiel, et les chiffres clés révisés en 2026 nous enseignent que :\n\nprès de 20 % des profils analysés sont en recul,\n12 % en avancée (phénomène d’accrétion),\n68 % restants ont une évolution non perceptible.\n\nL’actualisation récente concerne davantage de profils de traits de côte, et vient confirmer qu’environ 20 % des côtes naturelles sont en recul. Pourtant, le CEREMA précise que, selon les secteurs, le littoral alterne des phases d’avancée et de recul. C’est pourquoi choisir une unique période de référence accentue les phénomènes extrêmes (tempêtes, submersions, etc.), et choisir une période allongée peut lisser ces dynamiques. Observés localement, ces travaux montrent que les réalités sont très contrastées. Qu’en est-il pour la Région SUD ?…\n\n\n\n\n\n\nÉvolution du trait de côte - par département (CEREMA 2026)\n\n\n\n\nFigure 1\n\n\n\n\n\n\n\n\n\nNoteComment lire ces chiffres ?\n\n\n\n\n\n\nL’indicateur repose sur des profils, c’est-à-dire des points de mesure placés tous les 50 m le long de la côte.\nÀ chaque profil est associé un taux d’évolution en mètres par an (m/an). Négatif : le trait de côte recule. Positif : il avance.\nEntre −0,1 et +0,1 m/an, l’évolution est dite non perceptible. Ce n’est pas “stable” au sens strict : le changement est trop faible pour être distingué de l’incertitude de mesure.\nL’indicateur ne distingue pas une avancée naturelle d’une avancée liée à un aménagement (port, remblai, ouvrage)."
+  },
+  {
+    "objectID": "projects/Littoraux.html#en-région---un-département-sur-trois-touché",
+    "href": "projects/Littoraux.html#en-région---un-département-sur-trois-touché",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "En Région - Un département sur trois touché ?",
+    "text": "En Région - Un département sur trois touché ?\nLes Alpes-Maritimes et le Var ne présentent pas de phénomène de recul jugé “perceptible”. En revanche, près d’un cinquième des littoraux des Bouches-du-Rhône entre 1950 et 2020 auraient un recul significatif (de -3 m/an jusqu’à -0,5 m/an). Ce recul tient quasi exclusivement à deux communes du Delta du Rhône.\n\n\n\n\n\n\nNote\n\n\n\n⚠️ À noter : dans les données de la Figure 1, ce sont surtout les communes de Port-Saint-Louis-du-Rhône et de Saintes-Maries-de-la-Mer qui sont sévèrement touchées par le phénomène de recul du trait de côte.\n\n\nCi-dessous est proposé un Atlas de cette évolution du trait de côte, simplifié. Celui-ci permet de visualiser les dynamiques littorales par commune. Au lieu de représenter les polygones de recul ou d’avancée, des linéaires contenant la dynamique du trait de côte sont mis en avant. Cette méthode a des limites significatives (voir plus bas), et n’a pas pour objectif de constituer un outil d’aide à la décision.\n\nRésultatsAtlas des communes littorales (Région SUD)Les limites de cette méthode\n\n\nTaux moyen d’évolution du trait de côte pour chaque commune littorale (période 2010-2020). Les communes sont classées du plus fort recul au plus fort gain.\n\n\n\nDeux communes se détachent nettement : Port-Saint-Louis-du-Rhône et Saintes-Maries-de-la-Mer sont les deux communes du Delta citées plus haut.\nLa grande majorité des communes ont peu de recul (-0.1 à +0.1) : leur évolution moyenne est peu ou pas perceptible.\nCertaines communes affichent une avancée (Fos-sur-Mer, par exemple, autour de +0,17 m/an).\n\nAttention : l’indicateur est sur la période 2010-2020, et ne distingue pas une avancée naturelle d’une avancée due aux aménagements (ex: brises-lames, zones portuaires, etc…).\n\n\nCliquer sur une vignette pour l’agrandir, puis naviguer de commune en commune.\n\n\n\n\n\n\nAntibes\n\n\n\n\n\n\n\nArles\n\n\n\n\n\n\n\nBandol\n\n\n\n\n\n\n\nBeaulieu-sur-Mer\n\n\n\n\n\n\n\nBormes-les-Mimosas\n\n\n\n\n\n\n\nCagnes-sur-Mer\n\n\n\n\n\n\n\nCannes\n\n\n\n\n\n\n\n\n\nCap-d’Ail\n\n\n\n\n\n\n\nCarqueiranne\n\n\n\n\n\n\n\nCarry-le-Rouet\n\n\n\n\n\n\n\nCassis\n\n\n\n\n\n\n\nCavalaire-sur-Mer\n\n\n\n\n\n\n\nCogolin\n\n\n\n\n\n\n\nEnsuès-la-Redonne\n\n\n\n\n\n\n\n\n\nFos-sur-Mer\n\n\n\n\n\n\n\nFréjus\n\n\n\n\n\n\n\nGassin\n\n\n\n\n\n\n\nGrimaud\n\n\n\n\n\n\n\nHyères\n\n\n\n\n\n\n\nLa Ciotat\n\n\n\n\n\n\n\nLa Croix-Valmer\n\n\n\n\n\n\n\n\n\nLa Garde\n\n\n\n\n\n\n\nLa Londe-les-Maures\n\n\n\n\n\n\n\nLa Seyne-sur-Mer\n\n\n\n\n\n\n\nLe Lavandou\n\n\n\n\n\n\n\nLe Pradet\n\n\n\n\n\n\n\nLe Rove\n\n\n\n\n\n\n\nMandelieu-la-Napoule\n\n\n\n\n\n\n\n\n\nMarseille\n\n\n\n\n\n\n\nMartigues\n\n\n\n\n\n\n\nMenton\n\n\n\n\n\n\n\nNice\n\n\n\n\n\n\n\nPort-de-Bouc\n\n\n\n\n\n\n\nPort-Saint-Louis-du-Rhône\n\n\n\n\n\n\n\nRamatuelle\n\n\n\n\n\n\n\n\n\nRayol-Canadel-sur-Mer\n\n\n\n\n\n\n\nRoquebrune-Cap-Martin\n\n\n\n\n\n\n\nRoquebrune-sur-Argens\n\n\n\n\n\n\n\nSaint-Cyr-sur-Mer\n\n\n\n\n\n\n\nSaint-Jean-Cap-Ferrat\n\n\n\n\n\n\n\nSaint-Laurent-du-Var\n\n\n\n\n\n\n\nSaint-Mandrier-sur-Mer\n\n\n\n\n\n\n\n\n\nSaint-Raphaël\n\n\n\n\n\n\n\nSaint-Tropez\n\n\n\n\n\n\n\nSainte-Maxime\n\n\n\n\n\n\n\nSaintes-Maries-de-la-Mer\n\n\n\n\n\n\n\nSanary-sur-Mer\n\n\n\n\n\n\n\nSausset-les-Pins\n\n\n\n\n\n\n\nSix-Fours-les-Plages\n\n\n\n\n\n\n\n\n\nThéoule-sur-Mer\n\n\n\n\n\n\n\nToulon\n\n\n\n\n\n\n\nVallauris\n\n\n\n\n\n\n\nVillefranche-sur-Mer\n\n\n\n\n\n\n\nVilleneuve-Loubet\n\n\n\n\n\n\n\nÈze\n\n\n\n\n\n\n\nCet atlas est une simplification. Quelques précautions :\n\nLes lignes sont des repères, pas la côte elle-même : elles sont construites à partir du centre des polygones d’évolution, donc décalées du trait de côte réel.\nUne moyenne par commune cache des réalités opposées : sur un même linéaire, un secteur en recul et un secteur en avancée peuvent s’annuler.\nLes petits linéaires pèsent peu : certaines communes sont représentées par très peu de profils (quelques unités), leur moyenne est donc fragile.\nDes tronçons non calculés peuvent être “traversés” par les lignes.\nMes classes de légende (±0,2 m/an) ne sont pas celles du CEREMA (±0,1 m/an) : à garder en tête en comparant avec Cartagène.\n\n\n\n\n\nEt l’aménagement dans tout ça ?\nLe recul du trait de côte est devenu un sujet de planification. Dans le cadre de la loi Climat et Résilience, une liste de communes particulièrement exposées est fixée par décret. Ces communes doivent établir des cartes locales d’exposition au recul du trait de côte, qui projettent l’érosion à 30 ans puis entre 30 et 100 ans, et les intégrer à leurs documents d’urbanisme (PLU).\nDans les Bouches-du-Rhône, le décret 2022-750 du 29 avril 2022 retient six communes : Arles, Cassis, La Ciotat, Marseille, Port-de-Bouc et Sausset-les-Pins.\n\n\n\n\n\n\nImportantUn décalage à interroger\n\n\n\nLes deux communes qui reculent le plus dans l’indicateur 2010-2020, Port-Saint-Louis-du-Rhône et Saintes-Maries-de-la-Mer, ne figurent pas dans cette liste. À l’inverse, les six communes listées présentent des évolutions moyennes non perceptibles sur la même période.\n\n\nCe décalage ne signifie pas qu’il y a une erreur. L’indicateur mesure le passé sur une période donnée, alors que les cartes locales portent sur des projections et sur des enjeux (bâti, activités, submersion marine) que la seule vitesse de recul ne résume pas. Reste à comprendre, au cas par cas, ce qui explique les choix de la liste."
+  },
+  {
+    "objectID": "projects/Littoraux.html#en-conclusion-la-mer-monte-vraiment",
+    "href": "projects/Littoraux.html#en-conclusion-la-mer-monte-vraiment",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "En conclusion : la mer monte, vraiment ?",
+    "text": "En conclusion : la mer monte, vraiment ?\nÀ l’échelle de la Région SUD, la réponse est plutôt nuancée : le recul du trait de côte est réel mais très concentré, surtout dans le Delta du Rhône, alors que la majorité des communes littorales présente une évolution non perceptible sur la période étudiée. Une lecture communale permet d’en prendre conscience vite, mais ne remplace ni les données détaillées, ni l’expertise locale pour décider d’un aménagement."
+  },
+  {
+    "objectID": "projects/Littoraux.html#données-outils-et-transparence",
+    "href": "projects/Littoraux.html#données-outils-et-transparence",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "Données, outils et transparence",
+    "text": "Données, outils et transparence\n\nDonnées : Indicateur national de l’érosion côtière – version 2026, CEREMA. Source : Indicateur national de l’érosion côtière – Version 2026 – Cerema, 2026.\nOutils : QGIS, Excel, Python (génération de l’Atlas), Quarto."
+  },
+  {
+    "objectID": "projects/Littoraux.html#footnotes",
+    "href": "projects/Littoraux.html#footnotes",
+    "title": "La Mer monte ? Vraiment ?…",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nCentre d’études et d’expertise sur les risques, l’environnement, la mobilité et l’aménagement. Site↩︎"
+  },
+  {
+    "objectID": "projets.html",
+    "href": "projets.html",
+    "title": "Projets",
+    "section": "",
+    "text": "Démographie de la petite enfance\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa Mer monte ? Vraiment ?…\n\n\nComment les dynamiques des littoraux influent les politiques d’aménagement en Région SUD ?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLa ville perméable\n\n\nOù porter une stratégie de Ville perméable ?…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nZones d’activités : l’angle mort des risques inondations ?\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
+  }
+]
