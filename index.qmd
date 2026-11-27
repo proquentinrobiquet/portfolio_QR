@@ -29,19 +29,19 @@ listing:
 ---
 # Chargé d'études SIG / Géographe 
 
-Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire. Passant par l'élaboration d'une stratégie "ville perméable", à un diagnostic petite enfance pour la ville de Nice, à la construction d'atlas pour un projet Européen... Je suis familier avec tous traitements, analyses, mise en lumière des données géographiques au service de l'intérêt général. J'ai principalement abordé des travaux concernant urbanisme réglementaire (à la CCI de Nice), démographie (INSEE RP), les risques (PPRi-mvt) et la désimperméabilisation des sols (OCSGE/RGE Alti).
+Bienvenue sur mon portfolio ! Jeune géomaticien avec un parcours en urbanisme, j'ai travaillé sur une diversité de sujets liés au territoire. Passant par l'élaboration d'une stratégie "ville perméable", d'un diagnostic petite enfance pour la ville de Nice, à la construction d'atlas pour un projet Européen... Je suis familier avec les traitements, analyses, mise en lumière des données géographiques au service de l'intérêt général. J'ai principalement abordé des travaux concernant l'urbanisme réglementaire et les risques (à la CCI de Nice), la démographie (INSEE RP),  et la désimperméabilisation des sols (OCSGE/RGE Alti).
 
 ::: {.callout-tip}
 ## En une phrase
-Profil géographe passioné par la recherche de solutions liées à toute problématiques territoriale par le traitement, l'analyse, et la visualisation de données statistiques ou même réglementaires. 
+Profil géographe passioné par la recherche de solutions liées aux problématiques territoriale grâce au traitement, analyse, et visualisation de données géographiques statistiques et réglementaires. 
 :::
 
 ## Visualiser quelques exemples de projets
 
 ::: {#liste-projets}
 
-Autodidacte insatiable j'explore et m'autoforme avec passion à l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
 :::
+Autodidacte insatiable j'explore et m'autoforme avec passion à l'éventail des outils open-source développés par les communautés de géomaticien, développeurs, contributeurs...- *et ce site en est une preuve*.
 
 
 ## Compétences
